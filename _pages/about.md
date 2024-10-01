@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ghent University Community for Open and Reproducible Research.
+subtitle: Ghent University Community for Open and Reproducible Research
 
 profile:
   align: right
