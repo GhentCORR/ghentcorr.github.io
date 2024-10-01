@@ -17,10 +17,10 @@ In a brainstorm on values for the community, we identified the wish for a horizo
 
 <ul>
     <li><b>Openness and FAIRness:</b> we are dedicated to making knowledge and data accessible, ensuring that everything we produce can be easily found, used, and built upon by others around the world.</li>
-    <li>__Horizontal and research-centred:__ our community embraces a horizontal structure and a shared, peer-to-peer approach to decision-making. Researchers and their needs are at the core of the community and everyone has an equal voice in shaping our direction and goals.</li>
-    <li>__Quality and rigour:__ our community is committed to high-quality, reproducible research, ensuring that science is transparent, thoroughly scrutinized, and built on reliable, verifiable methods. </li>
-    <li>__Diversity, equity, and inclusiveness:__ we actively cultivate a welcoming and equitable environment where every individual, regardless of background, can contribute, feel valued, and thrive in our community.</li>
-    <li>__Impact and recognition:__ the community strives to have a meaningful impact on science and society, recognizing that every contribution —big or small—toward openness and reproducibility helps push research forward.</li>
+    <li><b>Horizontal and research-centred:</b> our community embraces a horizontal structure and a shared, peer-to-peer approach to decision-making. Researchers and their needs are at the core of the community and everyone has an equal voice in shaping our direction and goals.</li>
+    <li><b>Quality and rigour:</b> our community is committed to high-quality, reproducible research, ensuring that science is transparent, thoroughly scrutinized, and built on reliable, verifiable methods. </li>
+    <li><b>Diversity, equity, and inclusiveness:</b> we actively cultivate a welcoming and equitable environment where every individual, regardless of background, can contribute, feel valued, and thrive in our community.</li>
+    <li><b>Impact and recognition:</b> the community strives to have a meaningful impact on science and society, recognizing that every contribution —big or small—toward openness and reproducibility helps push research forward.</li>
 </ul>
 
 ## Goals: what do we want to achieve?
