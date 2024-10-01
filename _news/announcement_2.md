@@ -16,7 +16,7 @@ We kicked off by getting to know each other and learning what makes us enthusias
 In a brainstorm on values for the community, we identified the wish for a horizontal community that is built by researchers, for researchers - a community in which both early and advanced career researchers feel welcomed, contribute and build on each other’s shoulders. Moreover, we want the community to have sharing, openness and FAIRness of research results at heart. 
 
 <ul>
-    <li>__Openness and FAIRness:__ we are dedicated to making knowledge and data accessible, ensuring that everything we produce can be easily found, used, and built upon by others around the world.</li>
+    <li><b>Openness and FAIRness:</b> we are dedicated to making knowledge and data accessible, ensuring that everything we produce can be easily found, used, and built upon by others around the world.</li>
     <li>__Horizontal and research-centred:__ our community embraces a horizontal structure and a shared, peer-to-peer approach to decision-making. Researchers and their needs are at the core of the community and everyone has an equal voice in shaping our direction and goals.</li>
     <li>__Quality and rigour:__ our community is committed to high-quality, reproducible research, ensuring that science is transparent, thoroughly scrutinized, and built on reliable, verifiable methods. </li>
     <li>__Diversity, equity, and inclusiveness:__ we actively cultivate a welcoming and equitable environment where every individual, regardless of background, can contribute, feel valued, and thrive in our community.</li>
