@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Researchers and staff gather to build a grassroots community on open and reproducible science
+img: assets/img/12.jpg
 date: 2024-06-20 16:11:00-0400
 inline: false
 related_posts: false
