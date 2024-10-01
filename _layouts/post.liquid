@@ -15,6 +15,16 @@ layout: default
 {% assign url_beginning = page.url | slice: 0, 6 %}
 
 <div class="post">
+
+{% if page.banner_image %}
+    <div class="post-banner" style="background-image: url('{{ page.banner_image }}');">
+      <h1 class="post-banner-title">{{ page.title }}</h1>
+      {% if page.subtitle %}
+        <p class="post-banner-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    </div>
+  {% endif %}
+
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
