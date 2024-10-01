@@ -61,15 +61,6 @@ layout: default
     </p>
   </header>
 
-{% if page.banner_image %}
-  <div class="post-banner" style="background-image: url('{{ page.banner_image | relative_url }}');">
-    <h1 class="post-banner-title">{{ page.title }}</h1>
-    {% if page.subtitle %}
-      <p class="post-banner-subtitle">{{ page.subtitle }}</p>
-    {% endif %}
-  </div>
-{% endif %}
-
   <article class="post-content">
     {% if page.toc and page.toc.beginning %}
       <div id="table-of-contents">
