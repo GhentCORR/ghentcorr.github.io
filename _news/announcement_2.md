@@ -1,33 +1,42 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Researchers and staff gather to build a grassroots community on open and reproducible science
+date: 2024-06-20 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Over 20 researchers and research support staff gathered for a half-day workshop to build a blueprint for Ghent University’s first community on open and reproducible science on June 19th 2024. Supported by UGent’s Open Science team, researchers from different faculties as well as research support staff involved in research integrity, research ethics, research assessment and other areas of research policy brainstormed and voted on the identity of the future community and identified the next steps in building the community.
+
+We kicked off by getting to know each other and learning what makes us enthusiastic about open and reproducible science through a yarn toss game. 
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-#### Hipster list
+## Values: what is important to us?
+In a brainstorm on values for the community, we identified the wish for a horizontal community that is built by researchers, for researchers - a community in which both early and advanced career researchers feel welcomed, contribute and build on each other’s shoulders. Moreover, we want the community to have sharing, openness and FAIRness of research results at heart. 
 
 <ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
+    <li>**Openness and FAIRness:** we are dedicated to making knowledge and data accessible, ensuring that everything we produce can be easily found, used, and built upon by others around the world.</li>
+    <li>**Horizontal and research-centred:** our community embraces a horizontal structure and a shared, peer-to-peer approach to decision-making. Researchers and their needs are at the core of the community and everyone has an equal voice in shaping our direction and goals.</li>
+    <li>**Quality and rigour:** our community is committed to high-quality, reproducible research, ensuring that science is transparent, thoroughly scrutinized, and built on reliable, verifiable methods. </li>
+    <li>**Diversity, equity, and inclusiveness:** we actively cultivate a welcoming and equitable environment where every individual, regardless of background, can contribute, feel valued, and thrive in our community.</li>
+    <li>**Impact and recognition:** the community strives to have a meaningful impact on science and society, recognizing that every contribution —big or small—toward openness and reproducibility helps push research forward.</li>
 </ul>
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+## Goals: what do we want to achieve?
+We moved on to pinpoint the main goals of the future community. The top-goal is a change of research culture in which open and reproducible science is embedded into the daily practices of researchers. We want the community to help break down barriers and offer incentives for researchers that commit to making this transition to open and reproducible science happen. 
+
+## Activities: what can we do to achieve it?
+Next, we came up with community activities that will lead to achieving these goals. Again, activities organized by researchers for researchers tailored to their needs and in their field of interest were identified as key. To allow for knowledge and practice exchange, both “local” info sessions, workshops and hackathons, as well as sharing of guidelines on best practices, examples and templates were pinned down as crucial activities. An open science award but also advocating for the necessary infrastructure to practice open and reproducible science are deemed important. 
 
 ---
+## Mission statement
+Combining the identified values, goals and activities, the community’s mission statement was developed: 
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+> We are a grassroots community dedicated to making research more impactful by fostering open and reproducible practices. We provide a space to engage, connect, inspire and support each other.
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
+## Next steps
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+The proposed next steps are to build a governance structure for the community that can act on different levels (university-wide and within the faculties), develop a community engagement and communication plan to attract and inspire new researchers to join us, and envision how the community could contribute to the necessary infrastructure developments to enable open and reproducible science practices. 
+
+Join the core team to co-build the community together with other open and reproducible science enthusiasts! Do you know any colleague who might be interested? Feel free to forward this email. 
