@@ -4,7 +4,7 @@ permalink: /mission/
 title: Our mission
 description: Learn more about the Ghent University Community for Open and Reproducible Research
 nav: false
-banner_image: "assets/img/pexels-road.jpg"
+banner_image: "/assets/img/pexels-road.jpg"
 ---
 
 We are a grassroots community dedicated to making research more impactful by fostering open and reproducible practices. We provide a space to engage, connect, inspire and support each other.
