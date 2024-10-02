@@ -20,6 +20,12 @@
     <!-- Header -->
     {% include header.liquid %}
 
+<!-- Banner Section (New) -->
+    {% if page.banner_image %}
+      <div class="banner-image" style="background-image: url('{{ page.banner_image }}');">
+      </div>
+    {% endif %}
+
     <!-- Content -->
     <div class="container mt-5" role="main">
       {% if page.toc and page.toc.sidebar %}
