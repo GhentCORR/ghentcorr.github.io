@@ -1,7 +1,7 @@
 ---
 layout: about
 banner_image: "assets/img/pexels-puzzle.jpg"
-title: about
+title: home
 permalink: /
 subtitle: Ghent University Community for Open and Reproducible Research
 
