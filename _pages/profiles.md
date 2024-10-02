@@ -2,8 +2,8 @@
 layout: profiles
 banner_image: /assets/img/GetToKnowEachother_11B.jpeg
 permalink: /people/
-title: people
-description: members of the lab or group
+title: Members
+description: Who's part of the Ghent CORR community?
 nav: true
 nav_order: 7
 
