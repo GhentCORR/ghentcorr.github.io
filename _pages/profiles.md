@@ -1,5 +1,6 @@
 ---
 layout: profiles
+banner_image: /assets/img/GetToKnowEachother_11B.jpeg
 permalink: /people/
 title: people
 description: members of the lab or group
