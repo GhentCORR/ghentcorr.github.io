@@ -3,7 +3,7 @@ layout: post
 title: Researchers and staff gather to build a grassroots community on open and reproducible science
 banner_image: /assets/img/GetToKnowEachother_11B.jpeg
 description: Take a look back at the community blueprint workshop
-date: 2024-06-20 16:11:00-0400
+date: 2024-06-20 16:11:00
 tags: workshop
 categories: sample-posts
 tabs: true
