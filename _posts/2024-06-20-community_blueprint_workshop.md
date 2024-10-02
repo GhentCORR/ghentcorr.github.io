@@ -29,10 +29,35 @@ We kicked off by getting to know each other and learning what makes us enthusias
 </div>
 
 ## Goals: what do we want to achieve?
-We moved on to pinpoint the main goals of the future community. The top-goal is a change of research culture in which open and reproducible science is embedded into the daily practices of researchers. We want the community to help break down barriers and offer incentives for researchers that commit to making this transition to open and reproducible science happen. 
+<div class="row mt-3">
+  <!-- Image Column -->
+  <div class="col-md-6 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/posts/Goals_VotingResults_02_b.jpeg" class="img-fluid rounded z-depth-1" %}
+  </div>
+
+  <!-- Text Column -->
+  <div class="col-md-6">
+    We moved on to pinpoint the main goals of the future community. The top-goal is a change of research culture in which open and reproducible science is embedded into the daily practices of researchers. We want the community to help break down barriers and offer incentives for researchers that commit to making this transition to open and reproducible science happen.
+  </div>
+</div>
+
+ 
 
 ## Activities: what can we do to achieve it?
-Next, we came up with community activities that will lead to achieving these goals. Again, activities organized by researchers for researchers tailored to their needs and in their field of interest were identified as key. To allow for knowledge and practice exchange, both “local” info sessions, workshops and hackathons, as well as sharing of guidelines on best practices, examples and templates were pinned down as crucial activities. An open science award but also advocating for the necessary infrastructure to practice open and reproducible science are deemed important. 
+<div class="row mt-3">
+  <!-- Text Column -->
+  <div class="col-md-6">
+    Next, we came up with community activities that will lead to achieving these goals. Again, activities organized by researchers for researchers tailored to their needs and in their field of interest were identified as key. To allow for knowledge and practice exchange, both “local” info sessions, workshops and hackathons, as well as sharing of guidelines on best practices, examples and templates were pinned down as crucial activities. An open science award but also advocating for the necessary infrastructure to practice open and reproducible science are deemed important.
+  </div>
+
+  <!-- Image Column -->
+  <div class="col-md-6 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/posts/Activities_VotingResults_01.jpeg" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+
+
 
 ---
 ## Mission statement
@@ -44,4 +69,4 @@ Combining the identified values, goals and activities, the community’s mission
 
 The proposed next steps are to build a governance structure for the community that can act on different levels (university-wide and within the faculties), develop a community engagement and communication plan to attract and inspire new researchers to join us, and envision how the community could contribute to the necessary infrastructure developments to enable open and reproducible science practices. 
 
-Join the core team to co-build the community together with other open and reproducible science enthusiasts! Do you know any colleague who might be interested? Feel free to forward this email. 
+Join the core team to co-build the community together with other open and reproducible science enthusiasts!
