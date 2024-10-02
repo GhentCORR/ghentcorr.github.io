@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: true
+permalink: /mission/
+title: Ghent CORR
+description: Learn about the mission of the Ghent University Community for Open and Reproducible Research
+nav: false
 nav_order: 6
 ---
 
