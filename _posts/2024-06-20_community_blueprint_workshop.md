@@ -2,9 +2,11 @@
 layout: post
 title: Researchers and staff gather to build a grassroots community on open and reproducible science
 banner_image: /assets/img/GetToKnowEachother_11B.jpeg
+description: Take a look back at the community blueprint workshop
 date: 2024-06-20 16:11:00-0400
-inline: false
-related_posts: false
+tags: workshop
+categories: sample-posts
+tabs: true
 ---
 
 Over 20 researchers and research support staff gathered for a half-day workshop to build a blueprint for Ghent University’s first community on open and reproducible science on June 19th 2024. Supported by UGent’s Open Science team, researchers from different faculties as well as research support staff involved in research integrity, research ethics, research assessment and other areas of research policy brainstormed and voted on the identity of the future community and identified the next steps in building the community.
