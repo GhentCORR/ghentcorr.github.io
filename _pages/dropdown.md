@@ -13,6 +13,6 @@ children:
   - title: divider
   - title: blog
     permalink: /blog/
-    - title: publications
+  - title: publications
     permalink: /publications/
 ---
