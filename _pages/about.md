@@ -7,6 +7,8 @@ dropdown: true
 children:
   - title: mission
     permalink: /mission/
+  - title: code of conduct
+    permalink: /codeofconduct/
   - title: divider
   - title: projects
     permalink: /projects/
