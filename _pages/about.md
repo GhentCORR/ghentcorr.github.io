@@ -1,5 +1,6 @@
 ---
 layout: about
+banner_image: "assets/img/pexels-network.jpg"
 title: about
 permalink: /
 subtitle: Ghent University Community for Open and Reproducible Research
