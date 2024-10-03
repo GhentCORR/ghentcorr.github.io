@@ -1,4 +1,5 @@
 ---
+layout: profile
 name: John Doe
 tags: [core team, physcology]
 ---
