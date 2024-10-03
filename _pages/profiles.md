@@ -14,7 +14,7 @@ profiles:
     image: members/profile1.jpg # Path now points to the new folder
     content: members/about_einstein.md # Updated path for the biographies
     image_circular: true
-  - align: right
+ - align: right
     image: members/profile2.jpg # Path now points to the new folder
     content: members/about_einstein.md # Updated path for the biographies
     image_circular: true
