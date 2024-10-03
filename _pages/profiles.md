@@ -16,6 +16,6 @@ profiles:
     image_circular: true
   - align: left
     image: members/profile2.jpg
-    content: members/member1.md
+    content: members/member2.md
     image_circular: true
 ---
