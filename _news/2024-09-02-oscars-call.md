@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OSCARS Open Call: funding for Open Science Projects"
-banner_image: "assets/img/posts/pexels-funding.jpg"
+banner_image: "/assets/img/posts/pexels-funding.jpg"
 date: "2024-09-02 16:11:00"
 inline: false
 related_posts: true
