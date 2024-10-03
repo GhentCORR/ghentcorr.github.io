@@ -10,12 +10,12 @@ nav_order: 3
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
- - align: right
-    image: members/profile1.jpg # Path now points to the new folder
-    content: members/about_einstein.md # Updated path for the biographies
+  - align: right
+    image: members/profile1.jpg # Updated to the correct folder path inside "assets/img/profiles"
+    content: members/about_einstein.md # Updated to the correct folder path inside "_pages/biographies"
     image_circular: true
- - align: right
-    image: members/profile2.jpg # Path now points to the new folder
-    content: members/about_einstein.md # Updated path for the biographies
+  - align: right
+    image: members/profile2.jpg
+    content: members/about_einstein.md # Make sure this matches the actual biography filename
     image_circular: true
 ---
