@@ -4,30 +4,23 @@ layout: page
 
 <div class="post">
   <article>
-    {% if page.profiles %}
-      {% assign profiles_folder = "_pages/members/" %} <!-- Adjust path as needed -->
-      {% assign members = site.pages | where: "dir", profiles_folder %} <!-- Filter for member files in the specific directory -->
+    {% assign profiles_folder = "_pages/members/" %} <!-- Adjust path as needed -->
+    {% assign members = site.pages | where: "dir", profiles_folder %} <!-- Filter for member files in the specific directory -->
 
-      {% for profile in members %}
-        <hr>
-        <div class="profile float-right">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            <img src="{{ profile_image_path }}" class="{{ profile_image_class }}" alt="{{ profile.name }}">
-          {% endif %}
-          
-          <div class="clearfix">
-            <h2>{{ profile.name }}</h2>
-            <p>{{ profile.tags | join: ', ' }}</p>
-            {{ profile.content | markdownify }}
-          </div>
+    {% for profile in members %}
+      <hr>
+      <div class="profile float-right">
+        {% if profile.image %}
+          {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+          <img src="{{ profile_image_path }}" class="img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
+        {% endif %}
+        
+        <div class="clearfix">
+          <h2>{{ profile.name }}</h2>
+          <p>Tags: {{ profile.tags | join: ', ' }}</p>
+          {{ profile.content | markdownify }}
         </div>
-      {% endfor %}
-    {% endif %}
+      </div>
+    {% endfor %}
   </article>
 </div>
