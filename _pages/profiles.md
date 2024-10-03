@@ -10,20 +10,12 @@ nav_order: 3
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
+ - align: right
+    image: members/profile1.jpg # Path now points to the new folder
+    content: members/about_einstein.md # Updated path for the biographies
+    image_circular: true
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+    image: members/profile2.jpg # Path now points to the new folder
+    content: members/about_einstein.md # Updated path for the biographies
+    image_circular: true
 ---
