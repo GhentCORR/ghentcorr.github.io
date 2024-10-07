@@ -7,6 +7,8 @@ layout: page
     {% assign profiles_folder = "pages/members/" %}
     {% assign members = site.pages | where: "dir", profiles_folder %} <!-- Filter for member files in the specific directory -->
 
+    <p>Members count: {{ members.size }}</p> <!-- Debugging line -->
+
     {% if members.size > 0 %}
       {% for profile in members %}
         <hr>
