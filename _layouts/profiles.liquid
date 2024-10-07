@@ -13,9 +13,9 @@ layout: page
             <hr>
             <div class="profile d-flex align-items-start">
               {% if profile.image %}
-                {% assign profile_image_path = 'assets/img/' | append: profile.image %}
+                {% assign profile_image_path = '/assets/img/members/' | append: profile.image %}
                 <div class="profile-img">
-                  <img src="/assets/img/members/profile1.jpg" class="img-fluid z-depth-1 rounded-circle" alt="John Doe">
+                  <img src="{{ profile_image_path }}" class="img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
                 </div>
               {% endif %}
               <div class="profile-content ml-3">
