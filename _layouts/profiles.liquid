@@ -13,7 +13,7 @@ layout: page
         <hr>
         <div class="profile float-right">
           {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/members/' %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
             <img src="{{ profile_image_path }}" class="img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
           {% endif %}
           
