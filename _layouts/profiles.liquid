@@ -5,11 +5,16 @@ layout: page
 <div class="post">
   <article>
     <div class="container">
-      <p>Members count: {{ members.size }}</p> <!-- Debugging line to check member count -->
-
+      <!-- Debugging lines to check if the members collection is accessible -->
+      <h3>Debugging Info</h3>
+      <p><strong>Collection Size:</strong> {{ site.members.size }}</p>
+      <p><strong>Members Count:</strong> {{ members.size }}</p>
+      
+      <!-- Row for displaying member profiles -->
       <div class="row">
+        {% assign members = site.members %}
         {% for profile in members %}
-          <div class="col-12 col-md-10 offset-md-1 mb-4"> <!-- Center the profile content and expand the column width -->
+          <div class="col-12 col-md-10 offset-md-1 mb-4"> <!-- Full width for the profile container -->
             <hr>
             <div class="profile d-flex align-items-start">
               {% if profile.image %}
@@ -17,11 +22,14 @@ layout: page
                 <div class="profile-img">
                   <img src="{{ profile_image_path }}" class="profile-img-fixed img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
                 </div>
+              {% else %}
+                <p>No image for {{ profile.name }}</p> <!-- Debugging line for missing image -->
               {% endif %}
-              <div class="profile-content ml-4"> <!-- Increase the margin for better spacing -->
+              
+              <div class="profile-content ml-4">
                 <h2>{{ profile.name }}</h2>
                 <p><strong>Tags:</strong> {{ profile.tags | join: ', ' }}</p>
-                <p>{{ profile.content | markdownify }}</p> <!-- Ensure content is rendered as markdown -->
+                <p>{{ profile.content | markdownify }}</p>
               </div>
             </div>
           </div>
