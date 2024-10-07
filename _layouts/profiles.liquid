@@ -4,7 +4,7 @@ layout: page
 
 <div class="post">
   <article>
-    {% assign profiles_folder = "_pages/members/" %}
+    {% assign profiles_folder = "pages/members/" %}
     {% assign members = site.pages | where: "dir", profiles_folder %} <!-- Filter for member files in the specific directory -->
 
     {% if members.size > 0 %}
@@ -12,7 +12,7 @@ layout: page
         <hr>
         <div class="profile float-right">
           {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/members/' %}
             <img src="{{ profile_image_path }}" class="img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
           {% endif %}
           
@@ -28,4 +28,3 @@ layout: page
     {% endif %}
   </article>
 </div>
-
