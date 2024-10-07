@@ -4,20 +4,22 @@ layout: page
 
 <div class="post">
   <article>
-    {% assign members = site.members %} <!-- Assign members from the collection -->
-    
-    <div class="container">
+    {% assign members = site.members %} <!-- Use the members collection -->
+
+    <div class="container-fluid">
       <p>Members count: {{ members.size }}</p> <!-- Debugging line to check member count -->
 
-      <div class="row">
+      <div class="row justify-content-center">
         {% for profile in members %}
-          <div class="col-12 mb-4">
+          <!-- Use a flexible column class to allow full width on small screens and centered alignment on larger screens -->
+          <div class="col-12 col-md-8 offset-md-2 mb-4"> 
             <hr>
             <div class="profile d-flex align-items-start">
               {% if profile.image %}
                 {% assign profile_image_path = '/assets/img/members/' | append: profile.image %}
                 <div class="profile-img">
-                  <img src="{{ profile_image_path }}" class="img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
+                  <!-- Add a custom class 'profile-img-fixed' to control the image size -->
+                  <img src="{{ profile_image_path }}" class="profile-img-fixed img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
                 </div>
               {% endif %}
               <div class="profile-content ml-3">
