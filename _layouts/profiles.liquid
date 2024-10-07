@@ -1,7 +1,3 @@
----
-layout: page
----
-
 <div class="post">
   <article>
     {% assign members = site.members %} <!-- Use the members collection -->
@@ -13,7 +9,11 @@ layout: page
         <hr>
         <div class="profile float-right">
           {% if profile.image %}
-            {% assign profile_image_path = 'assets/img/' | append: profile.image %}
+            {% assign profile_image_path = 'assets/img/' | append: profile.image %} <!-- Update the path construction -->
+            
+            <!-- Add a debugging line to show the generated image path -->
+            <p>Image Path: {{ profile_image_path }}</p>
+
             <img src="{{ profile_image_path }}" class="img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
           {% endif %}
           
