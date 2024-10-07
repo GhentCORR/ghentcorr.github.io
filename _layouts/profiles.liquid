@@ -4,28 +4,24 @@ layout: page
 
 <div class="post">
   <article>
-    {% assign members = site.members %} <!-- Use the members collection -->
-
-    <div class="container-fluid">
+    <div class="container">
       <p>Members count: {{ members.size }}</p> <!-- Debugging line to check member count -->
 
-      <div class="row justify-content-center">
+      <div class="row">
         {% for profile in members %}
-          <!-- Use a flexible column class to allow full width on small screens and centered alignment on larger screens -->
-          <div class="col-12 col-md-8 offset-md-2 mb-4"> 
+          <div class="col-12 col-md-10 offset-md-1 mb-4"> <!-- Center the profile content and expand the column width -->
             <hr>
             <div class="profile d-flex align-items-start">
               {% if profile.image %}
                 {% assign profile_image_path = '/assets/img/members/' | append: profile.image %}
                 <div class="profile-img">
-                  <!-- Add a custom class 'profile-img-fixed' to control the image size -->
                   <img src="{{ profile_image_path }}" class="profile-img-fixed img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
                 </div>
               {% endif %}
-              <div class="profile-content ml-3">
+              <div class="profile-content ml-4"> <!-- Increase the margin for better spacing -->
                 <h2>{{ profile.name }}</h2>
-                <p>Tags: {{ profile.tags | join: ', ' }}</p>
-                {{ profile.content | markdownify }}
+                <p><strong>Tags:</strong> {{ profile.tags | join: ', ' }}</p>
+                <p>{{ profile.content | markdownify }}</p> <!-- Ensure content is rendered as markdown -->
               </div>
             </div>
           </div>
