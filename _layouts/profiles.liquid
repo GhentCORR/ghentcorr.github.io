@@ -4,8 +4,7 @@ layout: page
 
 <div class="post">
   <article>
-    {% assign profiles_folder = "pages/members/" %}
-    {% assign members = site.pages | where: "dir", profiles_folder %} <!-- Filter for member files in the specific directory -->
+    {% assign members = site.members %} <!-- Use the members collection -->
 
     <p>Members count: {{ members.size }}</p> <!-- Debugging line -->
 
