@@ -4,6 +4,8 @@ layout: page
 
 <div class="post">
   <article>
+    {% assign members = site.members %} <!-- Assign members from the collection -->
+    
     <div class="container">
       <p>Members count: {{ members.size }}</p> <!-- Debugging line to check member count -->
 
