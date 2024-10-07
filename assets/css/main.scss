@@ -42,4 +42,15 @@ $max-content-width: {{ site.max_width }};
   height: 150px; /* Set a consistent height */
   object-fit: cover; /* Ensure the image fits within the box without distortion */
   border-radius: 50%; /* Make the image circular */
+  margin-right: 15px; /* Space between image and text */
+}
+
+/* Profile content adjustments */
+.profile-content {
+  width: calc(100% - 165px); /* Ensure content fits well beside the image */
+}
+
+.profile {
+  width: 100%; /* Use full width for each profile row */
+  margin-bottom: 30px; /* Add spacing between profiles */
 }
