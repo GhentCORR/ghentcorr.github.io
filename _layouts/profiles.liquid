@@ -1,31 +1,32 @@
+---
+layout: page
+---
+
 <div class="post">
   <article>
-    {% assign members = site.members %} <!-- Use the members collection -->
+    <div class="container">
+      <p>Members count: {{ members.size }}</p> <!-- Debugging line to check member count -->
 
-    <p>Members count: {{ members.size }}</p> <!-- Debugging line -->
-
-    {% if members.size > 0 %}
-      {% for profile in members %}
-        <hr>
-        <div class="profile float-right">
-          {% if profile.image %}
-            {% assign profile_image_path = 'assets/img/' | append: profile.image %} <!-- Update the path construction -->
-            
-            <!-- Add a debugging line to show the generated image path -->
-            <p>Image Path: {{ profile_image_path }}</p>
-
-            <img src="{{ profile_image_path }}" class="img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
-          {% endif %}
-          
-          <div class="clearfix">
-            <h2>{{ profile.name }}</h2>
-            <p>Tags: {{ profile.tags | join: ', ' }}</p>
-            {{ profile.content | markdownify }}
+      <div class="row">
+        {% for profile in members %}
+          <div class="col-12 mb-4">
+            <hr>
+            <div class="profile d-flex align-items-start">
+              {% if profile.image %}
+                {% assign profile_image_path = 'assets/img/' | append: profile.image %}
+                <div class="profile-img">
+                  <img src="{{ profile_image_path }}" class="img-fluid rounded-circle" alt="{{ profile.name }}">
+                </div>
+              {% endif %}
+              <div class="profile-content ml-3">
+                <h2>{{ profile.name }}</h2>
+                <p>Tags: {{ profile.tags | join: ', ' }}</p>
+                {{ profile.content | markdownify }}
+              </div>
+            </div>
           </div>
-        </div>
-      {% endfor %}
-    {% else %}
-      <p>No profiles found.</p> <!-- Debugging line -->
-    {% endif %}
+        {% endfor %}
+      </div>
+    </div>
   </article>
 </div>
