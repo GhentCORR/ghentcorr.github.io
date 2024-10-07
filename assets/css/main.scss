@@ -36,3 +36,10 @@ $max-content-width: {{ site.max_width }};
   margin-bottom: 20px; /* Adjust margin as needed */
 }
 
+/* Profile image styles */
+.profile-img-fixed {
+  width: 150px;  /* Set a consistent width */
+  height: 150px; /* Set a consistent height */
+  object-fit: cover; /* Ensure the image fits within the box without distortion */
+  border-radius: 50%; /* Make the image circular */
+}
