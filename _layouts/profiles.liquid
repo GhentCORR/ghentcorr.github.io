@@ -7,15 +7,12 @@ layout: page
     <div class="container">
       <!-- Debugging lines to check if the members collection is accessible -->
       <h3>Debugging Info</h3>
-
-      <!-- Use direct reference to the collection documents -->
-      {% assign members = site.collections['members'].docs %} <!-- Updated assignment -->
-
-      <p><strong>Collection Size:</strong> {{ site.members.size }}</p> <!-- This should remain correct -->
-      <p><strong>Members Count:</strong> {{ members.size }}</p> <!-- Debugging to check if members is correctly assigned -->
-
+      <p><strong>Collection Size:</strong> {{ site.members.size }}</p>
+      <p><strong>Members Count:</strong> {{ members.size }}</p>
+      
       <!-- Row for displaying member profiles -->
       <div class="row">
+        {% assign members = site.members %}
         {% for profile in members %}
           <div class="col-12 col-md-10 offset-md-1 mb-4"> <!-- Full width for the profile container -->
             <hr>
@@ -28,7 +25,7 @@ layout: page
               {% else %}
                 <p>No image for {{ profile.name }}</p> <!-- Debugging line for missing image -->
               {% endif %}
-
+              
               <div class="profile-content ml-4">
                 <h2>{{ profile.name }}</h2>
                 <p><strong>Tags:</strong> {{ profile.tags | join: ', ' }}</p>
