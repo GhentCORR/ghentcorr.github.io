@@ -4,21 +4,22 @@ layout: page
 
 <div class="container mt-5">
 
-  <!-- Tag Filter Section -->
-  <div class="tag-category-list text-center">
-    <ul class="tag-list d-inline-flex flex-wrap justify-content-center p-0 m-0">
-      <li class="mx-2"><a href="#" class="tag-link active" data-filter="all">All</a></li>
-      {% assign all_tags = site.members | map: 'tags' | join: ',' | split: ',' | uniq %}
-      {% for tag in all_tags %}
-        {% if tag != "" %}
-          <li class="mx-2">
-            <i class="fa-solid fa-hashtag fa-sm"></i>
-            <a href="#" class="tag-link" data-filter="{{ tag | slugify }}">{{ tag }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </div>
+ <!-- Tag Filter Section -->
+{% assign all_tags = site.members | map: 'tags' | join: ',' | split: ',' | uniq %}
+<div class="tag-category-list text-center">
+  <ul class="d-inline-flex flex-wrap justify-content-center p-0 m-0">
+    <li class="mx-2"><a href="#" class="tag-link btn btn-outline-primary" data-filter="all">All</a></li>
+    {% for tag in all_tags %}
+      {% if tag != "" %}
+        <li class="mx-2">
+          <i class="fa-solid fa-hashtag fa-sm"></i>
+          <a href="#" class="tag-link btn btn-outline-primary" data-filter="{{ tag | slugify }}">{{ tag }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
 
   <!-- Profiles Display Section -->
   <div id="profiles-list" class="row justify-content-center">
