@@ -2,39 +2,74 @@
 layout: page
 ---
 
-<div class="post">
-  <article>
-    <div class="container">
-      <!-- Debugging lines to check if the members collection is accessible -->
-      <h3>Debugging Info</h3>
-      <p><strong>Collection Size:</strong> {{ site.members.size }}</p>
-      <p><strong>Members Count:</strong> {{ members.size }}</p>
+<div class="container mt-5">
+  <!-- Page Header Section -->
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <!-- Debugging Information (Optional) -->
+  <p>Debugging Info</p>
+  <p>Collection Size: {{ site.members.size }}</p>
+
+  <!-- Tag Filter Section -->
+  {% assign all_tags = site.members | map: 'tags' | join: ',' | split: ',' | uniq %}
+  <div class="tag-category-list">
+    <h2>Filter by Tags</h2>
+    <ul class="p-0 m-0">
+      <li><a href="{{ page.url }}">All</a></li> <!-- Link to display all profiles -->
+      {% for tag in all_tags %}
+        {% if tag != "" %}
+          <li>
+            <i class="fa-solid fa-hashtag fa-sm"></i>
+            <a href="?tag={{ tag | slugify }}">{{ tag }}</a>
+          </li>
+          {% unless forloop.last %}
+            <p>&bull;</p>
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
+  <!-- Extract the Selected Tag from the URL -->
+  {% assign selected_tag = page.url | split: '?' | last | split: 'tag=' | last | split: '&' | first %}
+
+  <!-- Profiles Display Section -->
+  <div class="row justify-content-center">
+    {% if site.members.size > 0 %}
+      {% assign filtered_members = site.members %}
       
-      <!-- Row for displaying member profiles -->
-      <div class="row">
-        {% assign members = site.members %}
-        {% for profile in members %}
-          <div class="col-12 col-md-10 offset-md-1 mb-4"> <!-- Full width for the profile container -->
-            <hr>
-            <div class="profile d-flex align-items-start">
-              {% if profile.image %}
-                {% assign profile_image_path = '/assets/img/members/' | append: profile.image %}
-                <div class="profile-img">
-                  <img src="{{ profile_image_path }}" class="profile-img-fixed img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
-                </div>
-              {% else %}
-                <p>No image for {{ profile.name }}</p> <!-- Debugging line for missing image -->
-              {% endif %}
-              
-              <div class="profile-content ml-4">
-                <h2>{{ profile.name }}</h2>
-                <p><strong>Tags:</strong> {{ profile.tags | join: ', ' }}</p>
-                <p>{{ profile.content | markdownify }}</p>
+      <!-- Apply Tag Filtering if a Tag Is Selected -->
+      {% if selected_tag != page.url and selected_tag != "" %}
+        {% assign filtered_members = site.members | where_exp: "member", "member.tags contains selected_tag" %}
+      {% endif %}
+      
+      <!-- Loop Through the Filtered Profiles -->
+      {% for profile in filtered_members %}
+        <div class="col-12 col-md-8 mb-4">
+          <hr>
+          <div class="profile d-flex align-items-start">
+            <!-- Profile Image Section -->
+            {% if profile.image %}
+              {% assign profile_image_path = '/assets/img/members/' | append: profile.image %}
+              <div class="profile-img">
+                <img src="{{ profile_image_path }}" class="profile-img-fixed img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
               </div>
+            {% endif %}
+
+            <!-- Profile Content Section -->
+            <div class="profile-content ml-3">
+              <h2>{{ profile.name }}</h2>
+              <p>Tags: {{ profile.tags | join: ', ' }}</p>
+              {{ profile.content | markdownify }}
             </div>
           </div>
-        {% endfor %}
-      </div>
-    </div>
-  </article>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>No profiles found.</p> <!-- Display message if no profiles are found -->
+    {% endif %}
+  </div>
 </div>
