@@ -5,86 +5,69 @@ layout: page
 <div class="container mt-5">
 
   <!-- Tag Filter Section -->
-  {% assign all_tags = site.members | map: 'tags' | join: ',' | split: ',' | uniq %}
-  <div class="tag-category-list">
-    <ul class="p-0 m-0 tag-list">
-      <li><a href="#" data-filter="all">All</a></li> <!-- Link to display all profiles -->
+  <div class="tag-category-list text-center">
+    <ul class="tag-list d-inline-flex flex-wrap justify-content-center p-0 m-0">
+      <li class="mx-2"><a href="#" class="tag-link active" data-filter="all">All</a></li>
+      {% assign all_tags = site.members | map: 'tags' | join: ',' | split: ',' | uniq %}
       {% for tag in all_tags %}
         {% if tag != "" %}
-          <li>
+          <li class="mx-2">
             <i class="fa-solid fa-hashtag fa-sm"></i>
-            <a href="#" data-filter="{{ tag | slugify }}">{{ tag }}</a>
+            <a href="#" class="tag-link" data-filter="{{ tag | slugify }}">{{ tag }}</a>
           </li>
-          {% unless forloop.last %}
-            <p>&bull;</p>
-          {% endunless %}
         {% endif %}
       {% endfor %}
     </ul>
   </div>
 
   <!-- Profiles Display Section -->
-  <div class="row justify-content-center">
-    {% assign profiles_per_page = 5 %} <!-- Adjust the number of profiles per page -->
-    {% assign total_pages = site.members | size | divided_by: profiles_per_page %}
-    {% assign current_page = page.url | split: '/' | last | default: "1" %}
-
-    <!-- Pagination Logic: Filter Profiles for Current Page -->
-    {% assign paginated_members = site.members | offset: (current_page | minus: 1) | limit: profiles_per_page %}
-
-    <!-- Apply Tag Filtering -->
-    <div id="profiles-list">
-      {% if paginated_members.size > 0 %}
-        {% for profile in paginated_members %}
-          <div class="col-12 col-md-8 mb-4 profile-item" data-tags="{{ profile.tags | join: ' ' | slugify }}">
-            <hr>
-            <div class="profile d-flex align-items-start">
-              <!-- Profile Image Section -->
-              {% if profile.image %}
-                {% assign profile_image_path = '/assets/img/members/' | append: profile.image %}
-                <div class="profile-img">
-                  <img src="{{ profile_image_path }}" class="profile-img-fixed img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
-                </div>
-              {% endif %}
-
-              <!-- Profile Content Section -->
-              <div class="profile-content ml-3">
-                <h2>{{ profile.name }}</h2>
-                <p>Tags: {{ profile.tags | join: ', ' }}</p>
-                {{ profile.content | markdownify }}
+  <div id="profiles-list" class="row justify-content-center">
+    {% if site.members.size > 0 %}
+      {% for profile in site.members %}
+        <div class="col-12 col-md-8 mb-4 profile-item" data-tags="{{ profile.tags | join: ' ' | slugify }}">
+          <hr>
+          <div class="profile d-flex align-items-start">
+            <!-- Profile Image Section -->
+            {% if profile.image %}
+              {% assign profile_image_path = '/assets/img/members/' | append: profile.image %}
+              <div class="profile-img">
+                <img src="{{ profile_image_path }}" class="profile-img-fixed img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
               </div>
+            {% endif %}
+
+            <!-- Profile Content Section -->
+            <div class="profile-content ml-3">
+              <h2>{{ profile.name }}</h2>
+              <p>Tags: {{ profile.tags | join: ', ' }}</p>
+              {{ profile.content | markdownify }}
             </div>
           </div>
-        {% endfor %}
-      {% else %}
-        <p>No profiles found.</p> <!-- Display message if no profiles are found -->
-      {% endif %}
-    </div>
-  </div>
-
-  <!-- Pagination Links -->
-  <div class="pagination">
-    {% for page_num in (1..total_pages) %}
-      <a href="{{ page.url | append: '/page/' | append: page_num }}" class="{% if current_page == page_num %}active{% endif %}">{{ page_num }}</a>
-    {% endfor %}
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>No profiles found.</p> <!-- Display message if no profiles are found -->
+    {% endif %}
   </div>
 </div>
 
 <!-- JavaScript for Dynamic Tag Filtering -->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const tagLinks = document.querySelectorAll(".tag-list a");
+    // Tag Filtering
+    const tagLinks = document.querySelectorAll(".tag-link");
     const profileItems = document.querySelectorAll(".profile-item");
 
     // Add click event listeners to each tag link
     tagLinks.forEach(link => {
       link.addEventListener("click", function (e) {
         e.preventDefault();
+
         const selectedTag = this.getAttribute("data-filter");
 
         // Show/hide profiles based on selected tag
         profileItems.forEach(item => {
           const itemTags = item.getAttribute("data-tags");
+
           if (selectedTag === "all" || itemTags.includes(selectedTag)) {
             item.style.display = "block"; // Show the item
           } else {
@@ -99,3 +82,29 @@ layout: page
     });
   });
 </script>
+
+<style>
+  /* Custom Styles for Tag List and Profiles */
+  .tag-category-list ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .tag-category-list ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  .tag-link {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #007bff;
+    cursor: pointer;
+  }
+  .tag-link.active, .tag-link:hover {
+    font-weight: bold;
+    color: #0056b3;
+  }
+  .profile-item {
+    display: block; /* Set all to visible by default */
+    transition: all 0.3s ease-in-out;
+  }
+</style>
