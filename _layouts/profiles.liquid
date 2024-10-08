@@ -3,11 +3,6 @@ layout: page
 ---
 
 <div class="container mt-5">
-  <!-- Page Header Section -->
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
-  </header>
 
   <!-- Debugging Information (Optional) -->
   <p>Debugging Info</p>
@@ -16,8 +11,7 @@ layout: page
   <!-- Tag Filter Section -->
   {% assign all_tags = site.members | map: 'tags' | join: ',' | split: ',' | uniq %}
   <div class="tag-category-list">
-    <h2>Filter by Tags</h2>
-    <ul class="p-0 m-0">
+       <ul class="p-0 m-0">
       <li><a href="{{ page.url }}">All</a></li> <!-- Link to display all profiles -->
       {% for tag in all_tags %}
         {% if tag != "" %}
