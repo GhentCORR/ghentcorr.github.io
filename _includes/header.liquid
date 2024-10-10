@@ -4,14 +4,10 @@
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.site_display_title == true %}
-            <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-              <span class="font-weight-bold">Ghent</span>CORR
-            </a>
+          {% if site.title == 'GhentCORR' %}
+            <span class="font-weight-bold">Ghent</span>CORR
           {% else %}
-            <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-              {{- site.title -}} <!-- Use the regular title from _config.yml -->
-            </a>
+            {{- site.title -}}
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
