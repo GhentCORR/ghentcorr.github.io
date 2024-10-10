@@ -4,17 +4,14 @@
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name | strip -}} <!-- Remove leading/trailing whitespace -->
-            {% endif %}
+          {% if site.site_display_title == true %}
+            <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+              <span class="font-weight-bold">Ghent</span>CORR
+            </a>
           {% else %}
-            {{- site.title -}}
+            <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+              {{- site.title -}} <!-- Use the regular title from _config.yml -->
+            </a>
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
