@@ -25,7 +25,7 @@ pagination:
 
   <div class="header-bar">
     <h1 class="text-primary">
-      <span class="font-weight-bold">Ghent</span><span>&nbsp;CORR</span>
+      <span class="font-weight-bold">Ghent</span><span>CORR</span>
     </h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
