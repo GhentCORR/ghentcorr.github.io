@@ -24,7 +24,9 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <span class="font-weight-bold">Ghent</span><span>&nbsp;CORR</span>
+    <h1 class="text-primary">
+      <span class="font-weight-bold">Ghent</span><span>&nbsp;CORR</span>
+    </h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
   {% endif %}
