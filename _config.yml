@@ -3,7 +3,6 @@
 # -----------------------------------------------------------------------------
 
 title: GhentCORR # This title will be used for the browser tab and elsewhere
-site_display_title: true  # Add a new custom variable to control the header display
 first_name: Ghent
 middle_name:
 last_name: CORR
