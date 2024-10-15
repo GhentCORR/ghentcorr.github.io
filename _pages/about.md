@@ -9,12 +9,4 @@ children:
     permalink: /mission/
   - title: code of conduct
     permalink: /codeofconduct/
-  - title: divider
-  - title: projects
-    permalink: /projects/
-  - title: divider
-  - title: blog
-    permalink: /blog/
-  - title: publications
-    permalink: /publications/
----
+ ---
