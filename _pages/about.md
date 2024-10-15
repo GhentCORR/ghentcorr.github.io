@@ -9,4 +9,4 @@ children:
     permalink: /mission/
   - title: code of conduct
     permalink: /codeofconduct/
- ---
+---
