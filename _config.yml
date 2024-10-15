@@ -6,7 +6,7 @@ title: GhentCORR # This title will be used for the browser tab and elsewhere
 first_name: Ghent
 middle_name:
 last_name: CORR
-email: you@example.com
+email: ""
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A website for the GhentCORR community. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
