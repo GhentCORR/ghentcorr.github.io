@@ -4,8 +4,8 @@ title: Researchers and staff gather to build a grassroots community on open and 
 banner_image: /assets/img/GetToKnowEachother_11B.jpeg
 description: Take a look back at the community blueprint workshop
 date: 2024-06-20 16:11:00
-tags: workshop
-categories: sample-posts
+tags: [workshop, blueprint]
+categories: events
 tabs: true
 featured: true
 ---
