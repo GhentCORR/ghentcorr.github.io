@@ -123,9 +123,11 @@
 {% if site.vivaengage_url %}
   <a href="{{ site.vivaengage_url }}" title="VivaEngage" target="_blank"><i class="fa-solid fa-comment"></i></a>
 {% endif %}
+{%- comment -%}
 {% if site.rss_icon %}
   <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
 {% endif %}
+{%- endcomment -%}
 {% if site.wechat_qr %}
   <a id="WeChatBtn" title="WeChat"><i class="fa-brands fa-weixin"></i></a>
   <div id="WeChatMod" class="wechat-modal">
