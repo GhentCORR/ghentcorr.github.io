@@ -524,19 +524,31 @@ footer.sticky-bottom {
 .tag-category-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
 
   ul {
-    justify-content: center;
+    /* Original code: 
     display: flow-root;
+    */
+    display: flex;           /* Use Flexbox for better layout control */
+    flex-wrap: wrap;         /* Ensure tags wrap to the next line */
+    justify-content: center; /* Center align the tags */
+    margin: 0;               /* Remove default margin */
+    padding: 0;              /* Remove default padding */
+  }
 
-    p,
-    li {
-      list-style: none;
-      display: inline-block;
-      padding: 0.5rem 0.5rem;
-      color: var(--global-text-color-light);
-    }
+  p,
+  li {
+    /* Original padding:
+    padding: 1rem 0.5rem;
+    */
+    padding: 0.25rem 0.5rem; /* Reduce vertical padding */
+
+    /* Original margin:
+    No explicit margin was set, adding margin to control spacing.
+    */
+    margin: 0.25rem;         /* Optional: Adjust margin between tags */
+    color: var(--global-text-color-light);
   }
 }
 
