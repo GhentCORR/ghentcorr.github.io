@@ -7,7 +7,7 @@ inline: false
 related_posts: true
 ---
 
-In line with our mission to foster transparent and responsible science, we are excited to share [the launch of the **Mind the GAP** podcast by VLIR](https://www.ugent.be/en/news-events/podcast-mind-the-gap-research-integrity.htm). This new series is designed for academic researchers, offering insights into maintaining integrity throughout the research process.
+In line with our mission to foster transparent and responsible science, we are excited to share [the launch of the Mind the GAP podcast by VLIR](https://www.ugent.be/en/news-events/podcast-mind-the-gap-research-integrity.htm). This new series is designed for academic researchers, offering insights into maintaining integrity throughout the research process.
 
 Mind the GAP provides a half-hour dive into real-life practices and challenges related to research integrity, featuring researchers from all five Flemish universities. The series addresses essential topics such as authorship, retractions, research data management, the use of generative AI, and the unpredictable nature of research.
 
