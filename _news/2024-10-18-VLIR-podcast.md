@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mind the GAP: A New Podcast on Research Integrity"
-banner_image: "/assets/img/posts/mind_the_gap_podcast.jpg"
+banner_image: "/assets/img/posts/logomindthegap.png"
 date: "2024-10-14"
 inline: false
 related_posts: true
