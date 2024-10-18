@@ -7,11 +7,7 @@ inline: false
 related_posts: true
 ---
 
-In line with our mission to foster transparent and responsible science, we are excited to share [the launch of the Mind the GAP podcast by VLIR](https://www.ugent.be/en/news-events/podcast-mind-the-gap-research-integrity.htm). This new series is designed for academic researchers, offering insights into maintaining integrity throughout the research process.
-
-Mind the GAP provides a half-hour dive into real-life practices and challenges related to research integrity, featuring researchers from all five Flemish universities. The series addresses essential topics such as authorship, retractions, research data management, the use of generative AI, and the unpredictable nature of research.
-
-Here's the overview of the series' episodes where, among others, Ghent University researchers and colleagues share their personal experiences:
+In today's research landscape, being open and reproducible isn't just good practice —it's essential for trust and integrity. But how do we, as researchers, navigate these challenges? [Mind the GAP](https://www.ugent.be/en/news-events/podcast-mind-the-gap-research-integrity.htm) —a new podcast launched by VLIR— explores these fundamental questions, bringing together researchers from across the Flemish universities to discuss the values and practices that uphold the integrity of academic research. The series addresses essential topics such as authorship, retractions, research data management, the use of generative AI, and the unpredictable nature of research. Here's the overview of the series' episodes where, among others, Ghent University researchers and colleagues share their personal experiences:
 
 1. [Research Integrity: a challenging concept for challenging situations](https://open.spotify.com/episode/4nxCXLSLd0Byp0wrVEVT8a?si=266pp_WwSGGP1EH9-rbFpA), with Aurélie Crabbé (Ghent University) and Kris Dierickx (KU Leuven)
 2. [Research Data Management (RDM): an acronym at the centre of research integrity](https://open.spotify.com/episode/1qRbLc8Qj7JlX6nGAp30l5?si=10FnOy9ESi6s09UnssasUQ), with Nicky Daniels (Hasselt University) and Laura Standaert (Ghent University)
