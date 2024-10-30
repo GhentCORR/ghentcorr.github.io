@@ -1,6 +1,6 @@
 ---
 layout: page
-title: news
+title: news & events
 permalink: /news/
 nav: true
 nav_order: 5
