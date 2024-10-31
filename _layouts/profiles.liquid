@@ -3,29 +3,24 @@ layout: page
 ---
 
 <div class="container mt-5">
-
-<!-- Tag Filter Section -->
-  <div class="tag-category-list text-center">
-    <ul class="tag-list d-inline-flex flex-wrap justify-content-center p-0 m-0">
-      <li class="mx-2"><a href="#" class="tag-link active" data-filter="all">All</a></li>
+  <!-- Filter by Tags Dropdown -->
+  <div class="text-center mb-4">
+    <select id="tag-filter-dropdown" class="custom-select">
+      <option value="all">All Tags</option>
       {% assign all_tags = site.members | map: 'tags' | join: ',' | split: ',' | uniq %}
       {% for tag in all_tags %}
         {% if tag != "" %}
-          <li class="mx-2">
-            <i class="fa-solid fa-hashtag fa-sm"></i>
-            <a href="#" class="tag-link" data-filter="{{ tag | slugify }}">{{ tag }}</a>
-          </li>
+          <option value="{{ tag | slugify }}">{{ tag }}</option>
         {% endif %}
       {% endfor %}
-    </ul>
+    </select>
   </div>
-
 
   <!-- Profiles Display Section -->
   <div id="profiles-list" class="row justify-content-center">
     {% if site.members.size > 0 %}
       {% for profile in site.members %}
-        <div class="col-12 col-md-8 mb-4 profile-item" data-tags="{{ profile.tags | join: ' ' | slugify }}">
+        <div class="col-12 col-md-10 mb-4 profile-item" data-tags="{{ profile.tags | join: ' ' | slugify }}">
           <hr>
           <div class="profile d-flex align-items-start">
             <!-- Profile Image Section -->
@@ -51,61 +46,66 @@ layout: page
   </div>
 </div>
 
-<!-- JavaScript for Dynamic Tag Filtering -->
+<!-- JavaScript for Dynamic Tag Filtering with Dropdown -->
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    // Tag Filtering
-    const tagLinks = document.querySelectorAll(".tag-link");
+    const tagDropdown = document.getElementById("tag-filter-dropdown");
     const profileItems = document.querySelectorAll(".profile-item");
 
-    // Add click event listeners to each tag link
-    tagLinks.forEach(link => {
-      link.addEventListener("click", function (e) {
-        e.preventDefault();
+    tagDropdown.addEventListener("change", function () {
+      const selectedTag = this.value;
 
-        const selectedTag = this.getAttribute("data-filter");
+      // Show/hide profiles based on selected tag
+      profileItems.forEach(item => {
+        const itemTags = item.getAttribute("data-tags");
 
-        // Show/hide profiles based on selected tag
-        profileItems.forEach(item => {
-          const itemTags = item.getAttribute("data-tags");
-
-          if (selectedTag === "all" || itemTags.includes(selectedTag)) {
-            item.style.display = "block"; // Show the item
-          } else {
-            item.style.display = "none";  // Hide the item
-          }
-        });
-
-        // Update active class on the tag links
-        tagLinks.forEach(link => link.classList.remove("active"));
-        this.classList.add("active");
+        if (selectedTag === "all" || itemTags.includes(selectedTag)) {
+          item.style.display = "block"; // Show the item
+        } else {
+          item.style.display = "none";  // Hide the item
+        }
       });
     });
   });
 </script>
 
+<!-- Custom Styles -->
 <style>
-  /* Custom Styles for Tag List and Profiles */
-  .tag-category-list ul {
-    list-style: none;
-    padding-left: 0;
+  .custom-select {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
   }
-  .tag-category-list ul li {
-    display: inline;
-    margin: 0 10px;
-  }
-  .tag-link {
-    text-decoration: none;
-    font-size: 1.1em;
-    color: var(--global-theme-color);
-    cursor: pointer;
-  }
-  .tag-link.active, .tag-link:hover {
-    font-weight: bold;
-    color: var(--global-theme-color);
-  }
+
   .profile-item {
     display: block; /* Set all to visible by default */
     transition: all 0.3s ease-in-out;
+  }
+
+  .profile-img-fixed {
+    width: 150px;  /* Set a consistent width */
+    height: 150px; /* Set a consistent height */
+    object-fit: cover; /* Ensure the image fits within the box without distortion */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 15px; /* Space between image and text */
+  }
+
+  .profile-content {
+    width: calc(100% - 165px); /* Ensure content fits well beside the image */
+  }
+
+  .profile {
+    width: 100%; /* Use full width for each profile row */
+    margin-bottom: 30px; /* Add spacing between profiles */
+  }
+
+  .container.mt-5 {
+    max-width: 1200px; /* Set a wider max-width to avoid being too narrow */
+  }
+
+  @media (min-width: 768px) {
+    .profile-content {
+      width: calc(100% - 180px); /* Adjust for larger screens to give more room to content */
+    }
   }
 </style>

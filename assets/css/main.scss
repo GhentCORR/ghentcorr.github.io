@@ -6,6 +6,7 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
+// Imports
 @import
   "variables",
   "themes",
@@ -21,8 +22,74 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/regular",
   "tabler-icons/tabler-icons.scss",
   "tabler-icons/tabler-icons-filled.scss",
-  "tabler-icons/tabler-icons-outline.scss"
-;
+  "tabler-icons/tabler-icons-outline.scss";
+
+// General Styles for Tag List Section
+.tag-category-list {
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 100%; // Ensure the tag-category takes the full width of the container
+  box-sizing: border-box; // Consistent box-sizing to ensure padding and width are correctly applied
+}
+
+.tag-category-list h4 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.tag-category-list ul {
+  list-style: none;
+  padding-left: 0;
+  width: 100%; // Ensures the list doesn't get too narrow
+  box-sizing: border-box;
+}
+
+.tag-category-list ul li {
+  margin-bottom: 12px;
+}
+
+.tag-link {
+  text-decoration: none;
+  font-size: 1em; // Set the font size to avoid text overflow issues
+  color: var(--global-theme-color);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.tag-link.active,
+.tag-link:hover {
+  font-weight: bold;
+  color: var(--global-theme-color);
+}
+
+// Layout Adjustments for Two-Column Profiles and Tags Sidebar
+@media (min-width: 768px) {
+  .container.mt-5 {
+    display: flex;
+    flex-wrap: nowrap; // Prevent tags section from wrapping below the profiles
+    gap: 20px; // Add a gap between the profiles and the tags filter for better spacing
+  }
+
+  #profiles-list {
+    flex: 0 0 70%; // Takes 70% of the width on larger screens
+    max-width: 70%;
+  }
+
+  .tag-category-list {
+    flex: 0 0 25%; // Takes 25% of the width on larger screens, increasing the width of the sidebar
+    max-width: 25%;
+    margin-top: 0;
+    position: sticky; // Keep it visible while scrolling
+    top: 20px; // Spacing from the top of the page
+  }
+}
+
+// Banner image styles
 .banner-image {
   width: 100%;
   height: 300px; /* Adjust height as needed */
@@ -36,7 +103,7 @@ $max-content-width: {{ site.max_width }};
   margin-bottom: 20px; /* Adjust margin as needed */
 }
 
-/* Profile image styles */
+// Profile image styles
 .profile-img-fixed {
   width: 150px;  /* Set a consistent width */
   height: 150px; /* Set a consistent height */
@@ -45,7 +112,7 @@ $max-content-width: {{ site.max_width }};
   margin-right: 15px; /* Space between image and text */
 }
 
-/* Profile content adjustments */
+// Profile content adjustments
 .profile-content {
   width: calc(100% - 165px); /* Ensure content fits well beside the image */
 }
@@ -53,4 +120,35 @@ $max-content-width: {{ site.max_width }};
 .profile {
   width: 100%; /* Use full width for each profile row */
   margin-bottom: 30px; /* Add spacing between profiles */
+}
+
+// Profiles Layout - Two Column Configuration
+#profiles-list {
+  margin-top: 20px;
+}
+
+// Profile item adjustments for spacing and layout
+.profile-item {
+  display: block; /* Set all profiles to visible by default */
+  transition: all 0.3s ease-in-out;
+}
+
+// General container styling
+.container.mt-5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+// Ensure profiles and tags take up proper space
+@media (min-width: 768px) {
+  #profiles-list {
+    flex: 0 0 70%; // Takes 70% of the width on larger screens to give more room to the tags section
+    max-width: 70%;
+  }
+  
+  .tag-category-list {
+    flex: 0 0 25%; // Takes 25% of the width on larger screens for better display
+    max-width: 25%;
+    margin-top: 0; // Ensure it aligns at the top next to profiles
+  }
 }
