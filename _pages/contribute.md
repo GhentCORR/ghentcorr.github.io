@@ -14,7 +14,7 @@ no-title: true
 
 GhentCORR is all about the energy, ideas, and passion of the members of our community. Whether you're new to open and reproducible research or already experienced, there are plenty of ways for you to get involved and help us build a thriving open science community at Ghent University.
 
-## How You Can Contribute
+## How you can contribute
 
 - **Join the core team**: Get involved in the core group that shapes our direction and helps with decisions.
 
@@ -29,7 +29,7 @@ GhentCORR is all about the energy, ideas, and passion of the members of our comm
 
 - **Spread the word**: Let others know about GhentCORR and the work we're doing! Whether it's sharing our events, telling colleagues, or posting about us on social media—every bit of visibility helps us grow and reach more people.
 
-## Got Another Idea?
+## Got another idea?
 
 We're always open to new ideas that can support open and reproducible research at Ghent University. If there's a way you’d like to contribute that we haven't mentioned here, we'd love to hear about it. Whether it's a new project, an event, or something completely different, your input is always welcome.
 
