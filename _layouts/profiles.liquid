@@ -1,7 +1,6 @@
 ---
 layout: page
 ---
-
 <div class="container mt-5">
   <!-- Filter by Tags Dropdown -->
   <div class="text-center mb-4">
@@ -9,7 +8,7 @@ layout: page
       <option value="all">All Tags</option>
       {% assign all_tags = site.members | map: 'tags' | join: ',' | split: ',' | uniq %}
       {% for tag in all_tags %}
-        {% if tag != "" %}
+        {% if tag != '' %}
           <option value="{{ tag | slugify }}">{{ tag }}</option>
         {% endif %}
       {% endfor %}
@@ -41,28 +40,29 @@ layout: page
         </div>
       {% endfor %}
     {% else %}
-      <p>No profiles found.</p> <!-- Display message if no profiles are found -->
+      <p>No profiles found.</p>
+      <!-- Display message if no profiles are found -->
     {% endif %}
   </div>
 </div>
 
 <!-- JavaScript for Dynamic Tag Filtering with Dropdown -->
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const tagDropdown = document.getElementById("tag-filter-dropdown");
-    const profileItems = document.querySelectorAll(".profile-item");
+  document.addEventListener('DOMContentLoaded', function () {
+    const tagDropdown = document.getElementById('tag-filter-dropdown');
+    const profileItems = document.querySelectorAll('.profile-item');
 
-    tagDropdown.addEventListener("change", function () {
+    tagDropdown.addEventListener('change', function () {
       const selectedTag = this.value;
 
       // Show/hide profiles based on selected tag
-      profileItems.forEach(item => {
-        const itemTags = item.getAttribute("data-tags");
+      profileItems.forEach((item) => {
+        const itemTags = item.getAttribute('data-tags');
 
-        if (selectedTag === "all" || itemTags.includes(selectedTag)) {
-          item.style.display = "block"; // Show the item
+        if (selectedTag === 'all' || itemTags.includes(selectedTag)) {
+          item.style.display = 'block'; // Show the item
         } else {
-          item.style.display = "none";  // Hide the item
+          item.style.display = 'none'; // Hide the item
         }
       });
     });
@@ -83,7 +83,7 @@ layout: page
   }
 
   .profile-img-fixed {
-    width: 150px;  /* Set a consistent width */
+    width: 150px; /* Set a consistent width */
     height: 150px; /* Set a consistent height */
     object-fit: cover; /* Ensure the image fits within the box without distortion */
     border-radius: 50%; /* Make the image circular */

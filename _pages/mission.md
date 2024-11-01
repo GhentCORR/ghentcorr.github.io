@@ -10,6 +10,7 @@ banner_image: "/assets/img/pexels-road.jpg"
 We are a grassroots community dedicated to making research more impactful by fostering open and reproducible practices. We provide a space to engage, connect, inspire and support each other.
 
 ## Our goals
+
 <ul>
     <li><b>Transform research culture:</b> embedding open and reproducible science into everyday research practices, improving research quality and integrity.</li>
     <li><b>Break down barriers and offer incentives:</b> creating a supportive environment and offering recognition for researchers to make the transition to open and reproducible science happen.</li>
@@ -17,6 +18,7 @@ We are a grassroots community dedicated to making research more impactful by fos
 </ul>
 
 ## Our values
+
 <ul>
     <li><b>Openness and FAIRness:</b> we are dedicated to making knowledge and data accessible, ensuring that everything we produce can be easily found, used, and built upon by others around the world.</li>
     <li><b>Horizontal and research-centred:</b> our community embraces a horizontal structure and a shared, peer-to-peer approach to decision-making. Researchers and their needs are at the core of the community and everyone has an equal voice in shaping our direction and goals.</li>

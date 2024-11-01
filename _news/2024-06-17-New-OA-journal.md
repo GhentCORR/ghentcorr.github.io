@@ -7,7 +7,7 @@ inline: false
 related_posts: true
 ---
 
-The Faculty of Law and Criminology at Ghent University has launched the **Law & Criminology Journal (LCJ)** on the openjournals.ugent.be, an international open-access journal aimed at making high-quality research more accessible. This is a powerful example of researchers reclaiming control over scholarly publishing. LCJ addresses common challenges such as long publication times, high costs for authors and readers and allows authors to retain copyright of their work. 
+The Faculty of Law and Criminology at Ghent University has launched the **Law & Criminology Journal (LCJ)** on the openjournals.ugent.be, an international open-access journal aimed at making high-quality research more accessible. This is a powerful example of researchers reclaiming control over scholarly publishing. LCJ addresses common challenges such as long publication times, high costs for authors and readers and allows authors to retain copyright of their work.
 
 With a diverse, international editorial board, LCJ champions open science and reproducibility by offering diamond open access and encouraging the publication of preprints and research data.
 

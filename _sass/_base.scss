@@ -530,11 +530,11 @@ footer.sticky-bottom {
     /* Original code: 
     display: flow-root;
     */
-    display: flex;           /* Use Flexbox for better layout control */
-    flex-wrap: wrap;         /* Ensure tags wrap to the next line */
+    display: flex; /* Use Flexbox for better layout control */
+    flex-wrap: wrap; /* Ensure tags wrap to the next line */
     justify-content: center; /* Center align the tags */
-    margin: 0;               /* Remove default margin */
-    padding: 0;              /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
   }
 
   p,
@@ -547,7 +547,7 @@ footer.sticky-bottom {
     /* Original margin:
     No explicit margin was set, adding margin to control spacing.
     */
-    margin: 0.25rem;         /* Optional: Adjust margin between tags */
+    margin: 0.25rem; /* Optional: Adjust margin between tags */
     color: var(--global-text-color-light);
   }
 }

@@ -110,7 +110,7 @@ work_url: # work page URL
 x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
-vivaengage_url: "https://engage.cloud.microsoft/main/org/ugent.be/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyMDMyOTYzNDIwMTYifQ/all" 
+vivaengage_url: "https://engage.cloud.microsoft/main/org/ugent.be/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyMDMyOTYzNDIwMTYifQ/all"
 
 contact_note: >
   Keep up with the community
@@ -216,7 +216,6 @@ archive:
   output: true
   permalink: /archive/:path/
 
-
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
@@ -316,9 +315,9 @@ jekyll-archives:
 display_tags: ["workshop", "blueprint"] # these tags will be displayed on the front page of your blog
 # display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
-# ----------------------------------------------------------------------------- 
+# -----------------------------------------------------------------------------
 # Jekyll Scholar
-# ----------------------------------------------------------------------------- 
+# -----------------------------------------------------------------------------
 
 # scholar:
 #   last_name: [Einstein]
@@ -386,7 +385,6 @@ display_tags: ["workshop", "blueprint"] # these tags will be displayed on the fr
 
 # # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
 # enable_publication_thumbnails: true
-
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes

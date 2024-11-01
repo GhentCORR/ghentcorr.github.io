@@ -8,12 +8,11 @@ layout: default
         <span class="font-weight-bold">Ghent</span>CORR
       {% else %}
         {{- site.title -}}
-          {% endif %}
+      {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
- 
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">

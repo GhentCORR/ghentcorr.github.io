@@ -12,11 +12,12 @@ featured: true
 
 Over 20 researchers and research support staff gathered for a half-day workshop to build a blueprint for Ghent University’s first community on open and reproducible science on June 19th 2024. Supported by UGent’s Open Science team, researchers from different faculties as well as research support staff involved in research integrity, research ethics, research assessment and other areas of research policy brainstormed and voted on the identity of the future community and identified the next steps in building the community.
 
-We kicked off by getting to know each other and learning what makes us enthusiastic about open and reproducible science through a yarn toss game. 
+We kicked off by getting to know each other and learning what makes us enthusiastic about open and reproducible science through a yarn toss game.
 
 ---
 
 ## Values: what is important to us?
+
 <div class="row mt-3">
   <!-- Text Column -->
   <div class="col-md-6">
@@ -30,6 +31,7 @@ We kicked off by getting to know each other and learning what makes us enthusias
 </div>
 
 ## Goals: what do we want to achieve?
+
 <div class="row mt-3">
   <!-- Image Column -->
   <div class="col-md-6 mt-3 mt-md-0">
@@ -42,9 +44,8 @@ We kicked off by getting to know each other and learning what makes us enthusias
   </div>
 </div>
 
- 
-
 ## Activities: what can we do to achieve it?
+
 <div class="row mt-3">
   <!-- Text Column -->
   <div class="col-md-6">
@@ -57,17 +58,16 @@ We kicked off by getting to know each other and learning what makes us enthusias
   </div>
 </div>
 
-
-
-
 ---
+
 ## Mission statement
-Combining the identified values, goals and activities, the community’s mission statement was developed: 
+
+Combining the identified values, goals and activities, the community’s mission statement was developed:
 
 > We are a grassroots community dedicated to making research more impactful by fostering open and reproducible practices. We provide a space to engage, connect, inspire and support each other.
 
 ## Next steps
 
-The proposed next steps are to build a governance structure for the community that can act on different levels (university-wide and within the faculties), develop a community engagement and communication plan to attract and inspire new researchers to join us, and envision how the community could contribute to the necessary infrastructure developments to enable open and reproducible science practices. 
+The proposed next steps are to build a governance structure for the community that can act on different levels (university-wide and within the faculties), develop a community engagement and communication plan to attract and inspire new researchers to join us, and envision how the community could contribute to the necessary infrastructure developments to enable open and reproducible science practices.
 
 Join the core team to co-build the community together with other open and reproducible science enthusiasts!

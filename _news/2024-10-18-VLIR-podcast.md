@@ -18,4 +18,3 @@ In today's research landscape, being open and reproducible isn't just good pract
 
 You can find the [VLIR Mind the GAP podcast on Spotify](https://open.spotify.com/show/7fv32Wfg92fbDAlAFsazj8?si=fa256c30104a4888).
 The podcast complements the [online training tool Mind the GAP](https://onderzoektips.ugent.be/en/tips/00002012/).
-
