@@ -62,16 +62,26 @@ permissions:
 
 jobs:
   deploy:
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+
+      # Add cache step for bundler
+      - name: Setup Cache for Bundler
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: setup-ruby-bundler-cache-v6-${{ runner.os }}-${{ hashFiles('**/Gemfile.lock') }}-new-key
+          restore-keys: |
+            setup-ruby-bundler-cache-v6-${{ runner.os }}-
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2.2"
-          bundler-cache: true
+          bundler-cache: false # Disable auto-cache since we added a custom cache step
+
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -79,15 +89,19 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+          
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
+          bundle install
           bundle exec jekyll build
+
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
