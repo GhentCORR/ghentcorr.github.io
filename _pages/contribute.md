@@ -12,7 +12,7 @@ no-title: true
 
 <hr>
 
-GhentCORR is all about the energy, ideas, and passion of the members of our community. Whether you're new to open and reproducible research or already experienced, there are plenty of ways for you to get involved and help us build a thriving open science community at Ghent University.
+**Ghent**CORR is all about the energy, ideas, and passion of the members of our community. Whether you're new to open and reproducible research or already experienced, there are plenty of ways for you to get involved and help us build a thriving open science community at Ghent University.
 
 ## How you can contribute
 
@@ -27,7 +27,7 @@ GhentCORR is all about the energy, ideas, and passion of the members of our comm
 
 - **Organize local events**: Want to connect with people in your faculty or department? The core team and other members might be able to help you organize workshops, meetups, or discussions.
 
-- **Spread the word**: Let others know about GhentCORR and the work we're doing! Whether it's sharing our events, telling colleagues, or posting about us on social media—every bit of visibility helps us grow and reach more people.
+- **Spread the word**: Let others know about **Ghent**CORR and the work we're doing! Whether it's sharing our events, telling colleagues, or posting about us on social media—every bit of visibility helps us grow and reach more people.
 
 ## Got another idea?
 
@@ -35,4 +35,9 @@ We're always open to new ideas that can support open and reproducible research a
 
 ---
 
-_Ready to get involved? Reach out to us and let's work together!_
+<p>Ready to get involved? Reach out to us at <span id="email"></span> and let's work together!</p>
+<script type="text/javascript">
+  document.getElementById("email").innerHTML = 
+    '<a href="mailto:' + 'ghentcorr' + '@' + 'ugent.be">' + 'ghentcorr' + '@' + 'ugent.be' + '</a>';
+</script>
+
