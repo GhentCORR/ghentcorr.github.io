@@ -73,11 +73,11 @@ layout: default
     </div>
   </article>
 
-  {#
+  {% comment %}
   {% if page.citation %}
     {% include citation.liquid %}
   {% endif %}
-  #}
+  {% endcomment %}
 
   {% if site.related_blog_posts.enabled %}
     {% if page.related_posts == null or page.related_posts %}

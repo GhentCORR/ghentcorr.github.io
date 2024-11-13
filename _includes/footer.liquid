@@ -2,9 +2,11 @@
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
-      {{ site.first_name }}
-      {{ site.middle_name }}
-      {{ site.last_name }}. {{ site.footer_text }}
+      {% if site.title == 'GhentCORR' %}
+        <span style="font-weight: bold; color: inherit;">Ghent</span>CORR
+      {% else %}
+        {{- site.title -}}
+      {% endif %}. {{ site.footer_text }}
       {% if site.impressum_path %}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}
@@ -21,7 +23,11 @@
 
     <div class="container">
       &copy; Copyright {{ site.time | date: '%Y' }}
-      <span class="font-weight-bold">Ghent</span>CORR. {{ site.footer_text }}
+      {% if site.title == 'GhentCORR' %}
+        <span style="font-weight: bold; color: inherit;">Ghent</span>CORR
+      {% else %}
+        {{- site.title -}}
+      {% endif %}. {{ site.footer_text }}
       {% if site.impressum_path %}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
       {% endif %}

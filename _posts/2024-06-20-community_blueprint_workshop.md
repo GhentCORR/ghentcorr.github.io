@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Paula Oset, Stefanie De Bodt
 title: Researchers and staff gather to build a grassroots community on open and reproducible science
 banner_image: /assets/img/GetToKnowEachother_11B.jpeg
 description: Take a look back at the community blueprint workshop

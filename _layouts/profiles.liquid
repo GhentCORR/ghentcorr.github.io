@@ -3,30 +3,31 @@ layout: page
 ---
 <div class="container mt-5">
   <!-- Filter by Tags Dropdown -->
-  <div class="text-center mb-4">
-    <select id="tag-filter-dropdown" class="custom-select">
-      <option value="all">All Tags</option>
-      {% assign all_tags = site.members | map: 'tags' | join: ',' | split: ',' | uniq %}
-      {% for tag in all_tags %}
-        {% if tag != '' %}
-          <option value="{{ tag | slugify }}">{{ tag }}</option>
-        {% endif %}
-      {% endfor %}
-    </select>
+  <div class="row justify-content-center mb-4">
+    <div class="col-12 col-md-8 text-center">
+      <select id="tag-filter-dropdown" class="custom-select">
+        <option value="all">All Tags</option>
+        {% assign all_tags = site.members | map: 'tags' | join: ',' | split: ',' | uniq %}
+        {% for tag in all_tags %}
+          {% if tag != '' %}
+            <option value="{{ tag | slugify }}">{{ tag }}</option>
+          {% endif %}
+        {% endfor %}
+      </select>
+    </div>
   </div>
 
   <!-- Profiles Display Section -->
-  <div id="profiles-list" class="row justify-content-center">
+  <div id="profiles-list" class="row">
     {% if site.members.size > 0 %}
       {% for profile in site.members %}
-        <div class="col-12 col-md-10 mb-4 profile-item" data-tags="{{ profile.tags | join: ' ' | slugify }}">
-          <hr>
-          <div class="profile d-flex align-items-start">
+        <div class="col-12 col-md-6 mb-4 profile-item" data-tags="{{ profile.tags | join: ' ' | slugify }}">
+          <div class="profile d-flex align-items-start p-3">
             <!-- Profile Image Section -->
             {% if profile.image %}
               {% assign profile_image_path = '/assets/img/members/' | append: profile.image %}
               <div class="profile-img">
-                <img src="{{ profile_image_path }}" class="profile-img-fixed img-fluid z-depth-1 rounded-circle" alt="{{ profile.name }}">
+                <img src="{{ profile_image_path }}" class="profile-img-fixed img-fluid rounded-circle" alt="{{ profile.name }}">
               </div>
             {% endif %}
 
@@ -41,7 +42,6 @@ layout: page
       {% endfor %}
     {% else %}
       <p>No profiles found.</p>
-      <!-- Display message if no profiles are found -->
     {% endif %}
   </div>
 </div>
@@ -73,39 +73,41 @@ layout: page
 <style>
   .custom-select {
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
   }
 
   .profile-item {
-    display: block; /* Set all to visible by default */
     transition: all 0.3s ease-in-out;
   }
 
   .profile-img-fixed {
-    width: 150px; /* Set a consistent width */
-    height: 150px; /* Set a consistent height */
-    object-fit: cover; /* Ensure the image fits within the box without distortion */
-    border-radius: 50%; /* Make the image circular */
-    margin-right: 15px; /* Space between image and text */
+    width: 120px; /* Adjusted width to fit better in two columns */
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
   }
 
   .profile-content {
-    width: calc(100% - 165px); /* Ensure content fits well beside the image */
+    width: calc(100% - 135px); /* Adjusted to fit better in two columns */
   }
 
   .profile {
-    width: 100%; /* Use full width for each profile row */
-    margin-bottom: 30px; /* Add spacing between profiles */
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none; /* Removed the border to avoid the grey lines around each profile */
   }
 
   .container.mt-5 {
-    max-width: 1200px; /* Set a wider max-width to avoid being too narrow */
+    max-width: 100%; /* Utilize the full width of the screen */
   }
 
   @media (min-width: 768px) {
     .profile-content {
-      width: calc(100% - 180px); /* Adjust for larger screens to give more room to content */
+      width: calc(100% - 140px);
     }
   }
 </style>
