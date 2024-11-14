@@ -1,6 +1,6 @@
 ---
 name: Inge Van Nieuwerburgh
-tags: [core team, University Library, open access]
+tags: [core team, University Library, open (access) publishing]
 image: inge-van-nieuwerburgh.jpg
 ---
 

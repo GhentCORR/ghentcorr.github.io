@@ -1,6 +1,6 @@
 ---
 name: Paula Oset
-tags: [core team, University Library, open data, open educational resources]
+tags: [core team, University Library, FAIR & open data, open educational resources]
 image: paula-oset.jpg
 ---
 

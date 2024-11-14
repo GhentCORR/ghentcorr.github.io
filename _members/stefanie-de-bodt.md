@@ -1,6 +1,6 @@
 ---
 name: Stefanie De Bodt
-tags: [core team, University Library, open data, notebooks]
+tags: [core team, University Library, FAIR & open data, notebooks]
 image: stefanie-de-bodt.jpg
 ---
 
