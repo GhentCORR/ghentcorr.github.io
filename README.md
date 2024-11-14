@@ -19,7 +19,7 @@ If you're interested in learning more about the al-folio theme or making customi
 
 
 
-### Ways to Contribute
+### Ways to contribute
 
 - **Website design & development**: Help us improve the layout, design, or functionality of our website.
 - **Content contribution**: Share a blog post or news story related to open and reproducible research.
@@ -31,7 +31,7 @@ Get in touch with us for more ideas on how you can get involved.
 
 This repository follows the original licensing of the **al-folio** theme. You can find more information about licensing in the [LICENSE file](https://github.com/alshedivat/al-folio/blob/master/LICENSE).
 
-## Connect with Us
+## Connect with us
 
 Follow us on our journey towards open science and reproducibility! If you have questions, suggestions, or just want to reach out, feel free to connect with us. We're always excited to welcome new members to our community!
 
