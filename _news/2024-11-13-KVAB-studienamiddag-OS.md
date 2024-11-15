@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Upcoming event: Open Science - a Pandora's box for young researchers?"
+title: "Upcoming event 18-11-2024: Open Science - a Pandora's box for young researchers?"
 banner_image: "/assets/img/posts/Het_Paleis_der_Academiën_aan_de_Regentlaan_in_Brussel_2.jpg"
 date: "2024-11-13"
 inline: false

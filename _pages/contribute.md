@@ -22,10 +22,10 @@ no-title: true
 
 - **Contribute content**:
 
-  - **Write a blog post or share some news**: Have experiences, insights, or cool stories about open and reproducible research? We'd love for you to write something for our site.
-  - **Be featured on our members page**: Let the community get to know you! If you'd like to be on our members page, just let us know.
-
-- **Organize local events**: Want to connect with people in your faculty or department? The core team and other members might be able to help you organize workshops, meetups, or discussions.
+  - **Write a blog post or share some news**: Do you have experiences, insights, or stories related to open and reproducible research and that align with our community’s focus? We’d love to feature your work! Contact us so we can coordinate and provide guidance.
+  - **Be featured on our members page**: Let the community get to know you! We welcome members who are actively engaged in open and/or reproducible research practices and are open to being contacted for questions or invited to talks on their areas of expertise. Featuring on our page implies a willingness to share your experience with the community.
+<br>
+<br>
 
 - **Spread the word**: Let others know about **Ghent**CORR and the work we're doing! Whether it's sharing our events, telling colleagues, or posting about us on social media—every bit of visibility helps us grow and reach more people.
 
