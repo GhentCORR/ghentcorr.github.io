@@ -1,6 +1,6 @@
 ---
 name: Louise Poppe
-tags: [core team, FGE Faculty of Medicine and Health Sciences, preregistration, FAIR & open data, preprints]
+tags: [core team, FGE Faculty of Medicine and Health Sciences, preregistration, FAIR & open data, preprints, reproducible research practices]
 image: louise-poppe.png
 ---
 
