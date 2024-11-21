@@ -6,6 +6,7 @@ nav: true
 nav_order: 6
 banner_image: "/assets/img/pexels-puzzle.jpg"
 no-title: true
+social: true # includes social icons at the bottom of the page
 ---
 
 # Contribute to our community
@@ -16,7 +17,9 @@ no-title: true
 
 ## How you can contribute
 
-- **Join the core team**: Get involved in the core group that shapes our direction and helps with decisions.
+- **Join the conversation**: [Connect with other Ghent University researchers and staff members](https://engage.cloud.microsoft/main/org/ugent.be/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyMDMyOTYzNDIwMTYifQ) by joining our Viva Engage community.
+
+- **Become part of the core team**: Get involved in the core group that shapes our direction and helps with decisions.
 
 - **Help with the website**: If you're into design or have ideas for improving the site layout, we'd love your help to make our website look and feel better for everyone. Experience with Git, GitHub Pages, HTML, Markdown, Jekyll, or Liquid would be really helpful.
 

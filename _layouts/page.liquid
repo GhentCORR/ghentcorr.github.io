@@ -11,6 +11,14 @@ layout: default
 <div class="post">
   <article>
     {{ content }}
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
   </article>
 
   {% if site.giscus and page.giscus_comments %}
