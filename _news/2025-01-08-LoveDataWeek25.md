@@ -11,7 +11,7 @@ How can you share your data responsibly and maximize its potential across discip
 
 The [Ghent University Open Science team](https://www.ugent.be/en/research/openscience) is organizing a whole week dedicate to explore how data repositories can help in making your research outputs **FAIR—Findable, Accessible, Interoperable, and Reusable**.
 
-We’ll kick off with an introduction to the FAIR principles and Zenodo, a generalist repository. In the following sessions, expert repo-sitory managers will guide you through different domain-specific repositories. 
+We’ll kick off with an introduction to the FAIR principles and Zenodo, a generalist repository. In the following sessions, expert repository managers will guide you through different domain-specific repositories. 
 
 This event is open to **researchers in Belgium**, and it is your opportunity to **make informed choices about sharing your data**, ensuring it remains accessible, impactful, and ready for reuse across disciplines.
 
