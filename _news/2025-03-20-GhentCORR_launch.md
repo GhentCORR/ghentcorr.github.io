@@ -15,8 +15,8 @@ What’s on the programme?
 
 - Introduction of **Ghent**CORR and the core team behind the community 
 - Presentation of the results of the recent GhentCORR landscape survey on open and reproducible research at Ghent University 
-- Inspiring keynote by Prof.Dr. Sofie De Broe (Sciensano; Maastricht University) 
-- Engaging panel discussion with UGent researchers and Open Science policy makers   
+- Inspiring keynote by Prof.Dr. Sofie De Broe (Sciensano; Maastricht University) on public health policy development
+- Engaging panel discussion with UGent researchers and Open Science policy makers, including Bregt Saenen, Sven Rogge, Nele Vandersickel, Jan Mertens, Antoinette Verhage   
 - Exchange and networking with **Ghent**CORR members and other attendees during the break or at the drinks reception. 
 
-Mark June 10th (13:00) in your calendar, and stay tuned for details on the event and registration from May 5th 2025! 
+Mark **June 10th 2025** (13:00) in your calendar, and stay tuned for details on the event and registration from May 5th 2025! 
