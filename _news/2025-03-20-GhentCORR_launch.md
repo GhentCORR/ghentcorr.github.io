@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GhentCORR launch event on June 10th at GUM"
-banner_image: "/assets/img/posts/GhentCORR_launch_Plantentuin.jpg"
+banner_image: "/assets/img/posts/GhentCORR_launch_Plantentuin_banner.jpg"
 date: "2025-03-20"
 inline: false
 related_posts: true
