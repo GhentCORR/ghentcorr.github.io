@@ -25,7 +25,7 @@ On **June 10th 2025** (13:00 - 18:00), **Ghent**CORR will be officially launched
   display: block;
   font-size: 16px;
   font-weight: bold;
-  margin: 4px 2px;
+  margin: 0 auto;
   cursor: pointer;
 }
 .button2 {background-color: #2CC3B4;border-radius: 8px;} /* Green */
