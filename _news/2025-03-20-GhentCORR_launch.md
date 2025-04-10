@@ -20,3 +20,12 @@ What’s on the programme?
 - Exchange and networking with **Ghent**CORR members and other attendees during the break or at the reception. 
 
 [Registration is open!](https://event.ugent.be/registration/GhentCORRlaunch) (First come, first serve)
+
+<div class="row mt-3">
+  <!-- Full-Width Image with Link to Full Size -->
+  <div class="col-12">
+    <a href="/assets/img/posts/GhentCORR_launch_program.png" target="_blank">
+      {% include figure.liquid loading="eager" path="assets/img/posts/GhentCORR_launch_program.png" class="img-fluid rounded z-depth-1 w-100" %}
+    </a>
+  </div>
+</div>
