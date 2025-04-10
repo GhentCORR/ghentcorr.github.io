@@ -28,11 +28,11 @@ On **June 10th 2025** (13:00 - 18:00), **Ghent**CORR will be officially launched
   margin: 0 auto;
   cursor: pointer;
 }
-.button2 {background-color: #2CC3B4;border-radius: 8px;} /* Green */
+.button2 {background-color: #2CC3B4;border-radius: 8px; width: 30%} /* Green */
 </style>
 </head>
 <body>
-<button class="button button2" onclick="https://event.ugent.be/registration/GhentCORRlaunch">Register now</button>
+<a href="https://event.ugent.be/registration/GhentCORRlaunch" class="button button2">Register now!</a>
 </body>
 </html>
 
