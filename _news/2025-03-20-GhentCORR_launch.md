@@ -11,7 +11,7 @@ Are you a **Ghent University researcher** or research support staff member, do y
 
 On **June 10th 2025** (13:00 - 18:00), **Ghent**CORR will be officially launched during an event at the GUM – Ghent University Museum & Botanical Garden. 
 
-<!DOCTYPE html>
+
 <html>
 <head>
 <style>
@@ -22,7 +22,7 @@ On **June 10th 2025** (13:00 - 18:00), **Ghent**CORR will be officially launched
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
   font-weight: bold;
   margin: 4px 2px;
