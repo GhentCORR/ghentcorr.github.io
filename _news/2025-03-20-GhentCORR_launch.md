@@ -11,7 +11,31 @@ Are you a **Ghent University researcher** or research support staff member, do y
 
 On **June 10th 2025** (13:00 - 18:00), **Ghent**CORR will be officially launched during an event at the GUM – Ghent University Museum & Botanical Garden. 
 
-[Registration is open!](https://event.ugent.be/registration/GhentCORRlaunch) (First come, first serve)
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #2CC3B4; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button2 {background-color: #2CC3B4;border-radius: 8px;} /* Green */
+</style>
+</head>
+<body>
+<button class="button button2" onclick="https://event.ugent.be/registration/GhentCORRlaunch">Register now</button>
+</body>
+</html>
+
 
 <div class="row mt-3">
   <!-- Full-Width Image with Link to Full Size -->
