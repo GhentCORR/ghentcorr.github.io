@@ -3,7 +3,7 @@ layout: about
 banner_image: "assets/img/yarn_banner.jpg"
 title: home
 permalink: /
-subtitle: Ghent University Community for Open and Reproducible Research
+subtitle: Ghent University Community for Open and Reproducible Research - a local node of the Belgian reproducibility network
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
