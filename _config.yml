@@ -25,7 +25,7 @@ back_to_top: true # set to false to disable the back to top button
 navbar:
   logo:
     enabled: true
-    path: assets/img/ugent_logo.png
+    path: /assets/img/ugent_logo.png
 
 # -----------------------------------------------------------------------------
 # Theme
