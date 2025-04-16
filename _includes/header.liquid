@@ -1,15 +1,15 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light bg-dark navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav id="navbar" class="navbar navbar-dark bg-dark navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
+      #{% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
          <img src="{{ '/assets/img/ugent_logo.png' | relative_url }}" alt="Logo" style="height:30px; margin-right:10px;">
          {% if site.title == 'GhentCORR' %}
            <span class="font-weight-bold">Ghent</span>CORR
          {% else %}
            {{- site.title -}}
-         {% endif %}
+        # {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
