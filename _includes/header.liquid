@@ -2,15 +2,13 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-dark bg-dark navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      #{% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-         <img src="{{ '/assets/img/ugent_logo.png' | relative_url }}" alt="Logo" style="height:50px; max-height:60px; width:auto; margin-right:10px;">
+       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+         <img src="{{ '/assets/img/ugent_logo.png' | relative_url }}" alt="Logo" style="height:80px; max-height:100px; width:auto; margin-right:10px;">
          {% if site.title == 'GhentCORR' %}
            <span class="font-weight-bold" style="color: white;">Ghent</span>CORR
          {% else %}
            {{- site.title -}}
-        # {% endif %}
-        </a>
+       </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
