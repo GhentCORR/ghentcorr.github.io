@@ -4,12 +4,12 @@
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          <img src"{{'/assets/img/ugent_logo.png' | relative_url }} a;t=="Logo" style="height:30px; margin-right:10px;">
-          {% if site.title == 'GhentCORR' %}
-            <span class="font-weight-bold">Ghent</span>CORR
-          {% else %}
-            {{- site.title -}}
-          {% endif %}
+         <img src="{{ '/assets/img/ugent_logo.png' | relative_url }}" alt="Logo" style="height:30px; margin-right:10px;">
+         {% if site.title == 'GhentCORR' %}
+           <span class="font-weight-bold">Ghent</span>CORR
+         {% else %}
+           {{- site.title -}}
+         {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
