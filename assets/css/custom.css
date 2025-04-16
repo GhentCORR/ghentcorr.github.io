@@ -1,0 +1,26 @@
+/* Reduce navbar padding */
+.navbar .nav-item .nav-link {
+  white-space: nowrap;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* Adjust the logo size if needed */
+.navbar .navbar-brand img {
+  height: 80px;
+  max-width: 150px;
+  width: auto;
+}
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;  /* Prevent line wrapping */
+}
+
+/* Reduce padding for navbar links */
+.navbar .nav-link {
+  padding-left: 10px;   /* Reduce left padding */
+  padding-right: 10px;  /* Reduce right padding */
+  color: #ffffff !important;  /* White text */
+}
