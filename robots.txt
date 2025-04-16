@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://posetgar.github.io/sitemap.xml
+Sitemap: https://ghentcorr.github.io/sitemap.xml
