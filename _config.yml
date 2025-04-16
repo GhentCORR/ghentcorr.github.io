@@ -49,7 +49,7 @@ rss_icon: true
 # Layout
 # -----------------------------------------------------------------------------
 
-#navbar_fixed: true
+navbar_fixed: true
 navbar:
   title: "GhentCORR"
   url: "https://ghentcorr.github.io"
