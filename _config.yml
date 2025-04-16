@@ -49,7 +49,7 @@ rss_icon: true
 # Layout
 # -----------------------------------------------------------------------------
 
-#navbar_fixed: true
+navbar_fixed: true
 navbar:
   logo: "/assets/img/ugent_logo.png"
 footer_fixed: true
