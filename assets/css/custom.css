@@ -8,7 +8,7 @@
 /* Adjust the logo size if needed */
 .navbar .navbar-brand img {
   height: 80px;
-  max-width: 150px;
+  max-width: 100px;
   width: auto;
 }
 .navbar .container {
@@ -23,8 +23,8 @@
 /* Change the navbar text color */
 .navbar .navbar-brand,
 .navbar .nav-link {
-  padding-left: 10px;   /* Reduce left padding */
-  padding-right: 10px;  /* Reduce right padding */
+  padding-left: 5px;   /* Reduce left padding */
+  padding-right: 5px;  /* Reduce right padding */
   color: #ffffff !important; /* White text for all navbar items */
 }
 
