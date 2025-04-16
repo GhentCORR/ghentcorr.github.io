@@ -18,9 +18,17 @@
   flex-wrap: nowrap;  /* Prevent line wrapping */
 }
 
+
 /* Reduce padding for navbar links */
+/* Change the navbar text color */
+.navbar .navbar-brand,
 .navbar .nav-link {
   padding-left: 10px;   /* Reduce left padding */
   padding-right: 10px;  /* Reduce right padding */
-  color: #ffffff !important;  /* White text */
+  color: #ffffff !important; /* White text for all navbar items */
+}
+
+/* Also white if bold "Ghent" */
+.navbar .navbar-brand .font-weight-bold {
+  color: #ffffff !important; /* Change "Ghent" to yellow */
 }
