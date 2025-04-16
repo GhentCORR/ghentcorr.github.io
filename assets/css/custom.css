@@ -6,8 +6,8 @@
 }
 /* Adjust the logo size if needed */
 .navbar .navbar-brand img {
-  height: 80px;
-  max-width: 100px;
+  height: 60px;
+  max-width: 80px;
   width: auto;
 }
 /* Reduce navbar padding & prevent wrapping*/
