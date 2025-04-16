@@ -3,7 +3,7 @@
   <nav id="navbar" class="navbar navbar-dark bg-dark navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-         <img src="{{ '/assets/img/ugent_logo_cropped.png' | relative_url }}" alt="Logo" style="height:60px; max-height:60px; max-width:80px; width:auto; margin-right:10px;">
+         <img src="{{ '/assets/img/ugent_logo_cropped.png' | relative_url }}" alt="Logo" style="height:50px; max-height:50px; max-width:80px; width:auto; margin-right:10px;">
          {% if site.title == 'GhentCORR' %}
            <span class="font-weight-bold">Ghent</span>CORR
          {% else %}
@@ -36,7 +36,6 @@
           {% endfor %}
 
           <!-- About -->
-          {%- comment -%}
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
               {{- about_title }}
@@ -45,7 +44,6 @@
               {% endif %}
             </a>
           </li>
-          {%- endcomment -%}
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
