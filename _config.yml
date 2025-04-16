@@ -51,6 +51,8 @@ rss_icon: true
 
 #navbar_fixed: true
 navbar:
+  title: "GhentCORR"
+  url: "https://ghentcorr.github.io"
   logo:
     enabled: true
     path: /assets/img/ugent_logo.png
