@@ -60,7 +60,7 @@ Supported by:
   <!-- Full-Width Image with Link to Full Size -->
   <div class="col-12">
     <a href="/assets/img/posts/sponsor_logos.png" target="_blank">
-      {% include figure.liquid loading="eager" path="assets/img/posts/sponsor_logos.png" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid loading="eager" path="assets/img/posts/sponsor_logos.png" class="z-depth-1" %}
     </a>
   </div>
 </div>
