@@ -56,9 +56,8 @@ On **June 10th 2025** (13:00 - 18:00), **Ghent**CORR will be officially launched
 </div>
 
 Supported by:
-<div class="row mt-3" justify-content-center">
-  <!-- Full-Width Image with Link to Full Size -->
-  <div class="col-12">
+
+  <div class="row mt-3" justify-content-center">
     <a href="/assets/img/posts/sponsor_logos.png" target="_blank" style="display: inline-block; max-width: 300px;">
       {% include figure.liquid loading="eager" path="assets/img/posts/sponsor_logos.png" class="z-depth-1" %}
     </a>
