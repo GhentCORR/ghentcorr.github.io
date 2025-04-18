@@ -18,7 +18,16 @@
 /*}*/
 /* Reduce padding for navbar links */
 /* Change the navbar text color */
-.navbar .navbar-brand,
+.navbar .navbar-brand{
+  display: flex;
+  align-items: center;  /* Vertically center the logo and title */
+  padding-top: 0; /* Ensure there is no padding pushing it down */
+  padding-bottom: 0; /* Ensure no bottom padding either */
+}
+.navbar .navbar-nav {
+  display: flex;
+  align-items: center;  /* Vertically center the menu items */
+}
 .navbar .nav-link {
  /* padding-left: 5px;*/   /* Reduce left padding */
  /* padding-right: 5px;*/  /* Reduce right padding */
