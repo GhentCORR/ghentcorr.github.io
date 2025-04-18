@@ -11,17 +11,17 @@
   width: auto;
 }
 /* Reduce navbar padding & prevent wrapping*/
-.navbar .nav-item .nav-link {
-  white-space: nowrap;
-  padding-left: 5px;
-  padding-right: 5px;
-}
+/*.navbar .nav-item .nav-link {*/
+/*  white-space: nowrap;*/
+/*  padding-left: 5px;*/
+/*  padding-right: 5px;*/
+/*}*/
 /* Reduce padding for navbar links */
 /* Change the navbar text color */
 .navbar .navbar-brand,
 .navbar .nav-link {
-  padding-left: 5px;   /* Reduce left padding */
-  padding-right: 5px;  /* Reduce right padding */
+ /* padding-left: 5px;*/   /* Reduce left padding */
+ /* padding-right: 5px;*/  /* Reduce right padding */
   color: #ffffff !important; /* White text for all navbar items */
 }
 
