@@ -38,3 +38,28 @@
 .navbar .navbar-brand .font-weight-bold {
   color: #ffffff !important; /* Change "Ghent" to white */
 }
+
+/* ================================
+   NEW: Shrink logo on mobile
+   ================================ */
+
+/* 
+  On screens narrower than 576px:
+  - Reduce the navbar-logo height from 70px down to 40px
+  - Optionally reduce vertical padding of the navbar
+*/
+
+@media (max-width: 575.98px) {
+  /* Change logo height so toggler always fits */
+  .navbar .navbar-brand img {
+    height: 40px;
+    max-width: none;  /* Let width scale proportionally */
+    width: auto;
+  }
+
+  /* Optional: reduce vertical padding on the navbar itself */
+  #navbar.navbar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+}
