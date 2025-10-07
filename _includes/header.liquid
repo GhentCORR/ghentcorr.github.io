@@ -9,10 +9,10 @@
 
       <!-- 1) BRAND / LOGO -->
       {% if site.navbar.logo %}
-        <!-- If you've set navbar.logo in _config.yml, use that file -->
+        <!-- Use a single src; relative_url keeps local + Pages working -->
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           <img
-            src="{{ site.navbar.logo | relative_url }}"
+            src="{{ '/assets/img/' | append: site.navbar.logo | relative_url }}"
             alt="Logo"
             style="height:70px; max-height:70px; max-width:80px; width:auto; margin-right:10px;"
           >
