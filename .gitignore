@@ -10,4 +10,7 @@ Gemfile.lock
 assets/libs/
 node_modules/
 vendor
-.idea
+.idea_site
+_site/
+.jekyll-cache/
+.sass-cache/
