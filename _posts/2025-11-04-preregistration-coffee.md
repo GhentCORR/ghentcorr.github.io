@@ -18,7 +18,7 @@ Ultimately, preregistration and Registered Reports promote a culture of **transp
 
 Yet, GhentCORR’s recent [landscape survey](https://ghentcorr.github.io/blog/2025/ghentcorr-launch-blog/) showed that preregistration is still the least known and least used open research practice at Ghent University. That’s why we kicked off our “& Coffee” series with this topic—to demystify preregistration, share hands-on experiences, and show that any researcher can benefit from it.
 
-{% include figure.liquid loading="eager" path="assets/img/posts/1000040021.JPG" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/posts/1000040021.jpg" class="img-fluid rounded z-depth-1" %}
 
 At the session, three Ghent University researchers shared how they’ve approached preregistration and Registered Reports in very different contexts:
 
