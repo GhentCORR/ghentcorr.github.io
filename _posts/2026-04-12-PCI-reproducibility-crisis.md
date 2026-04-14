@@ -13,7 +13,7 @@ featured: true
 
 Scientific research rests on a simple but powerful idea: if a study is sound, others should be able to reproduce its results. Yet across many disciplines, this expectation is unmet.
 
-In a recent webinar (see [slides](/assets/pdf/20260330_reproducibility_crisis.pdf)) organised by **Ghent**CORR, Thomas Guillemaud and Denis Bourguet — cofounders of [*Peer Community In (PCI)*](https://peercommunityin.org/) — unpacked why reproducibility has become such a widespread concern, and how relatively straightforward changes in research practice could make a substantial difference.
+In a recent webinar (see [slides](/assets/pdf/20260330_reproducibility_crisis.pdf)) organised by **Ghent**CORR, [Thomas Guillemaud](https://eng-institut-sophia-agrobiotech.paca.hub.inrae.fr/research-teams/bpi/team-members/guillemaud-thomas) and [Denis Bourguet](https://umr-cbgp.fr/membre/bourguet/) — cofounders of [*Peer Community In (PCI)*](https://peercommunityin.org/) — unpacked why reproducibility has become such a widespread concern, and how relatively straightforward changes in research practice could make a substantial difference.
 
 
 ## Why so many published results look “too good to be true”
@@ -47,7 +47,7 @@ Together, these factors create a paradox at the heart of the reproducibility cri
 
 ## But, is it a crisis?
 
-Scepticism about the term *crisis* is understandable. Variation and occasional failures to replicate have always been part of scientific progress. However, the **scale and consistency** of recent evidence suggest that the situation goes beyond isolated problems.
+Scepticism about the term *crisis* is understandable. Variation and occasional failures to replicate have always been part of scientific progress. However, the scale and consistency of recent evidence suggest that the situation goes beyond isolated problems.
 
 Although with some variability in outcomes, large-scale replication efforts across life sciences and pre-clinical studies **consistently show very low reproducible rates overall**, with estimates ranging from only 10–25% of studies or effects reproducing robustly, many findings reproducing only partially, and a majority failing to reproduce altogether ([Begley & Ellis, 2012](https://www.nature.com/articles/483531a); [Ioannidis et al., 2009](https://www.nature.com/articles/ng.295); [*The Reproducibility Project: Cancer Biology*, 2014](https://elifesciences.org/collections/9b1e83d1/reproducibility-project-cancer-biology)). In the behavioural sciences, more recent evidence from [Nature’s 2026 reproducibility special issue](https://www.nature.com/immersive/d42859-026-00015-y/index.html) paints a similarly concerning picture: a years‑long, multi‑team meta‑research effort found that only about half of published claims could be successfully replicated.
 
@@ -154,5 +154,7 @@ Alongside supportive research policies, training and shared support play a cruci
 
 - Yang, Y., Sánchez‑Tójar, A., O’Dea, R. E., Noble, D. W. A., Koricheva, J., Jennions, M. D., Parker, T. H., Lagisz, M., & Nakagawa, S. (2023). *Publication bias impacts on effect size, statistical power, and magnitude (Type M) and sign (Type S) errors in ecology and evolutionary biology*. **BMC Biology**, 21(1), 71.  
   [https://doi.org/10.1186/s12915-022-01485-y](https://doi.org/10.1186/s12915-022-01485-y)
+
+- Banner image by DS stories from Pexels: https://www.pexels.com/photo/photograph-of-green-meeples-6989948/
 
 This blog post was written by the **Ghent**CORR core team. Copilot was used for editorial support, including improving clarity, flow, and consistency of the text.
