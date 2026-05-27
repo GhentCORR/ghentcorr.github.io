@@ -2,7 +2,7 @@
 layout: post
 author: Paula Oset
 title: "Reproducible Code & Coffee: Three perspectives on making research workflows reproducible"
-banner_image: /assets/img/posts/20260428_155111_banner.jpg
+banner_image: /assets/img/posts/20260428_155111_banner.JPG
 description: "Insights from the Reproducible Code & Coffee session"
 date: 2026-04-28 16:30:00
 tags: [reproducibility, open science, statistics, research software]
@@ -54,7 +54,7 @@ The key message was therefore not “use this one perfect tool”, but rather: *
 
 {% include figure.liquid
    loading="eager"
-   path="assets/img/posts/openDMG.png"
+   path="assets/img/posts/OpenDMG.png"
    class="img-fluid rounded z-depth-1"
 %}
 
