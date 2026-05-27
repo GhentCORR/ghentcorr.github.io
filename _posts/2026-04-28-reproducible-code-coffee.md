@@ -63,7 +63,7 @@ The key message was therefore not “use this one perfect tool”, but rather: *
 
   <div class="col-md-6" markdown="1">
 
-Sander Hendrickx shifted the focus from publications to day to day research practice. Based on his experience in the [Biophysics research group](https://biophysics.ugent.be/team), he showed how quickly code can become unmanageable if it is not structured properly (see [slides]((/assets/pdf/20260428_code_and_coffee_sander.pdf))).
+Sander Hendrickx shifted the focus from publications to day to day research practice. Based on his experience in the [Biophysics research group](https://biophysics.ugent.be/team), he showed how quickly code can become unmanageable if it is not structured properly (see [slides](/assets/pdf/20260428_code_and_coffee_sander.pdf)).
 
 Early on, his group worked with a single large code repository shared by many people. While convenient at first, this quickly led to conflicts, broken functionality, and confusion about who was responsible for what. 
 
@@ -83,7 +83,7 @@ Despite these challenges, the benefits are clear. A shared and well-maintained f
 <div class="row align-items-start">
   <div class="col-md-6" markdown="1">
 
-Bart Mesuere shared his lessons learned from more than a decade of work on [Unipept](https://unipept.ugent.be/), a research tool that began as a web application (see [slides]((/assets/pdf/GhentCORR_Unipept_reproducibility.pdf))). His story highlighted a familiar tension in research software: **what is convenient for users today is not always easy to reproduce tomorrow**.
+Bart Mesuere shared his lessons learned from more than a decade of work on [Unipept](https://unipept.ugent.be/), a research tool that began as a web application (see [slides](/assets/pdf/GhentCORR_Unipept_reproducibility.pdf)). His story highlighted a familiar tension in research software: **what is convenient for users today is not always easy to reproduce tomorrow**.
 
 From the outset, the choice for a web application made perfect sense. It lowered the barrier for use, required no installation, and allowed a single maintained version of the software to be shared with a wide audience. For researchers without a technical background, this accessibility was a major strength.
  
