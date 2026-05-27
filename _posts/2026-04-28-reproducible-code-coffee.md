@@ -40,7 +40,7 @@ While researchers often share their data (for example via repositories such as Z
 
 Instead, he proposed **shifting attention from outputs to processes** by introducing the concept of a publication workflow: the full chain of steps that connects raw data to figures and text in a paper. This includes data processing, parameter choices, intermediate results, and scripts — what he described as **“the arrows between the dots”**. Making these steps visible helps errors surface earlier and allows credit to be given to the full research process, not just the final article.
 
-Multiple tools can be used to document and automate research workflows, and Toon presented a comparison between workflow tools and build tools, each with their own strengths and trade-offs. Ideally, both flexibility and efficiency are needed: dynamic workflows that can adapt to changes, combined with incremental execution (only rerunning what has changed). To explore this, Toon developed his own tool, StepUp, which aims to combine both aspects.
+Multiple tools can be used to document and automate research workflows, and Toon presented a comparison between workflow tools and build tools, each with their own strengths and trade-offs. Ideally, both flexibility and efficiency are needed: dynamic workflows that can adapt to changes, combined with incremental execution (only rerunning what has changed). To explore this, Toon developed his own tool, [StepUp](https://pypi.org/project/stepup/), which aims to combine both aspects.
 
 In practice, researchers also rely on containers to package software environments so analyses can be rerun on another machine. While these approaches already support reproducibility in meaningful ways, the discussion also touched on how challenging it is to ensure results remain reproducible over very long timeframes, given the continuous evolution of software and hardware environments.
 
@@ -63,7 +63,7 @@ The key message was therefore not “use this one perfect tool”, but rather: *
 
   <div class="col-md-6" markdown="1">
 
-Sander Hendrickx shifted the focus from publications to day to day research practice. Based on his experience in biophysics research, he showed how quickly code can become unmanageable if it is not structured properly (see [slides]((/assets/pdf/20260428_code_and_coffee_sander.pdf))).
+Sander Hendrickx shifted the focus from publications to day to day research practice. Based on his experience in the [Biophysics research group](https://biophysics.ugent.be/team), he showed how quickly code can become unmanageable if it is not structured properly (see [slides]((/assets/pdf/20260428_code_and_coffee_sander.pdf))).
 
 Early on, his group worked with a single large code repository shared by many people. While convenient at first, this quickly led to conflicts, broken functionality, and confusion about who was responsible for what. 
 
@@ -83,7 +83,7 @@ Despite these challenges, the benefits are clear. A shared and well-maintained f
 <div class="row align-items-start">
   <div class="col-md-6" markdown="1">
 
-Bart Mesuere shared his lessons learned from more than a decade of work on [Unipept](https://unipept.ugent.be/), a research tool that began as a web application (see [slides]((/assets/pdf/GhentCORR_Unipept_reproducibility.pdf))). His story highlighted a familiar tension in research software: what is convenient for users today is not always easy to reproduce tomorrow.
+Bart Mesuere shared his lessons learned from more than a decade of work on [Unipept](https://unipept.ugent.be/), a research tool that began as a web application (see [slides]((/assets/pdf/GhentCORR_Unipept_reproducibility.pdf))). His story highlighted a familiar tension in research software: **what is convenient for users today is not always easy to reproduce tomorrow**.
 
 From the outset, the choice for a web application made perfect sense. It lowered the barrier for use, required no installation, and allowed a single maintained version of the software to be shared with a wide audience. For researchers without a technical background, this accessibility was a major strength.
  
@@ -101,9 +101,9 @@ From the outset, the choice for a web application made perfect sense. It lowered
   </div>
 </div>
 
-However, as the tool evolved, the limits of this approach gradually became clear. Over time, both the software itself and the underlying biological databases (such as UniProt) were updated regularly. As a result, the same input data could produce different outputs depending on when the analysis was run.
+However, as the tool evolved, the limits of this approach gradually became clear. Over time, both the software itself and the underlying biological databases (such as [UniProt](https://www.uniprot.org/)) were updated regularly. As a result, the same input data could produce different outputs depending on when the analysis was run.
 
-Bart described how the team took **incremental steps** to deal with reproducibility by improving transparency. They began by clearly indicating which software and database versions were used in each analysis, and by maintaining a public changelog documenting what had changed to the web application over time. In this context, reproducibility became less about freezing the entire system, and more about making changes visible and understandable. Besides, they decided to **open up the source code**, allowing others — at least in principle — to run previous versions themselves. Although there were initial concerns about others reusing or “stealing” ideas, these fears did not materialise in practice.
+Bart described how the team took **incremental steps** to deal with reproducibility by improving transparency. They began by clearly indicating which software and database versions were used in each analysis, and by maintaining a public changelog documenting what had changed to the web application over time. In this context, reproducibility became less about freezing the entire system, and more about **making changes visible and understandable**. Besides, they decided to **open up the source code**, allowing others — at least in principle — to run previous versions themselves. Although there were initial concerns about others reusing or “stealing” ideas, these fears did not materialise in practice.
 
 Bart showed that there is often no perfect solution, but reproducibility can be improved step by step. Importantly, many of the practices that support reproducibility — such as clear documentation, explicit dependencies, versioned releases, and testing — also make research software easier to maintain, share, and build upon over time.
 
