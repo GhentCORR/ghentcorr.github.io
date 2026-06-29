@@ -2,7 +2,7 @@
 layout: post
 author: Paula Oset
 title: "One year of GhentCORR: a growing community for open and reproducible research"
-banner_image: /assets/img/posts/confetti_banner.JPG
+banner_image: /assets/img/posts/confetti_banner.jpg
 description: "Celebrating one year of GhentCORR with a special message from the Rector and Vice Rector"
 date: 2026-06-22 16:30:00
 tags: [reproducibility, open science]
