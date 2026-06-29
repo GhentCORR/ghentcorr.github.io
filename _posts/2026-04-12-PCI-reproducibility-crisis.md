@@ -15,6 +15,15 @@ Scientific research rests on a simple but powerful idea: if a study is sound, ot
 
 In a recent webinar (see [slides](/assets/pdf/20260330_reproducibility_crisis.pdf)) organised by **Ghent**CORR, [Thomas Guillemaud](https://eng-institut-sophia-agrobiotech.paca.hub.inrae.fr/research-teams/bpi/team-members/guillemaud-thomas) and [Denis Bourguet](https://umr-cbgp.fr/membre/bourguet/) — cofounders of [*Peer Community In (PCI)*](https://peercommunityin.org/) — unpacked why reproducibility has become such a widespread concern, and how relatively straightforward changes in research practice could make a substantial difference.
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin-bottom: 2rem;">
+  <iframe src="https://www.youtube.com/embed/iHasADJ_OeI?si=lEhZV7W-eliLYcm4"
+          title="YouTube video player"
+          style="position: absolute; top:0; left:0; width:100%; height:100%;"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+  </iframe>
+</div>
 
 ## Why so many published results look “too good to be true”
 
