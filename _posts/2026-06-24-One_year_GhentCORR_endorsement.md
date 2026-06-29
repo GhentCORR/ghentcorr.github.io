@@ -29,7 +29,7 @@ After these preparatory steps, GhentCORR officially kicked off in June 2025 with
 
 We soon launched the & Coffee series: informal moments to discuss and learn from colleagues about open and reproducible research practices. One of our first sessions focused on **[preregistration](https://ghentcorr.github.io/blog/2025/preregistration-coffee/)**, a topic identified in the initial landscape survey as one of the least known and least practiced. More recently, the **[Reproducible Code & Coffee](https://ghentcorr.github.io/blog/2026/reproducible-code-coffee/)** session created space to reflect on coding practices in research. Participants shared tips, challenges, and examples of how to make code more transparent and reusable, turning abstract principles into everyday practice. These sessions showed the value of combining learning with community-building, lowering the threshold to engage, exchange experiences, and ask questions.
 
-We also organzed a webinar on the **[reproducibility crisis](https://ghentcorr.github.io/blog/2026/PCI-reproducibility-crisis/)**, hosted in collaboration with [Peer Community In](https://peercommunityin.org/). The session explored systemic challenges in research and suggested concrete ways forward. For many participants, it was an eye-opening discussion that put everyday research practices into a broader perspective.
+We also organized a webinar on the **[reproducibility crisis](https://ghentcorr.github.io/blog/2026/PCI-reproducibility-crisis/)**, hosted in collaboration with [Peer Community In](https://peercommunityin.org/). The session explored systemic challenges in research and suggested concrete ways forward. For many participants, it was an eye-opening discussion that put everyday research practices into a broader perspective.
 
 Alongside these events, GhentCORR has been gradually growing into an active **[online space](https://engage.cloud.microsoft/main/org/ugent.be/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyMDMyOTYzNDIwMTYifQ)** where (currently over 180) members share resources, ask questions, and support each other. We started small, and continue to grow step by step, connecting researchers across disciplines and career stages.
 
@@ -38,3 +38,6 @@ Alongside these events, GhentCORR has been gradually growing into an active **[o
 We are proud of the achievements in this first year, and curious to see how the community will continue to evolve. GhentCORR is shaped by its members, which put forward new ideas, topics, and collaborations.
 
 👉 **[Join](https://engage.cloud.microsoft/main/org/ugent.be/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyMDMyOTYzNDIwMTYifQ)** the community, take part in upcoming activities or help organizing them, and contribute to **[shape the future](https://ghentcorr.github.io/contribute/) of open and reproducible research at Ghent University**.
+
+
+This blog post was written by the **Ghent**CORR core team. Copilot was used for editorial support, including improving clarity, flow, and consistency of the text.
