@@ -1,6 +1,6 @@
 ---
 name: Pim Pullens
-tags: [FEA Faculty of Engineering and Architecture, Magnetic Resonance Imaging (MRI), imaging informatics, imaging repositories, reproducibility in (open source) MRI, core facilities]
+tags: [FEA Faculty of Engineering and Architecture, UZ Gent (Medical Imaging), Magnetic Resonance Imaging (MRI), imaging informatics, imaging repositories, reproducibility in (open source) MRI, core facilities]
 image: pim-pullens.jpeg
 ---
 
