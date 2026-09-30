@@ -3,7 +3,7 @@ layout: post
 author: Paula Oset
 title: "The reproducibility crisis in science: what’s going wrong and how to fix it"
 banner_image: /assets/img/posts/PCI_webinar_banner.jpg
-description: hy so many scientific findings fail to replicate — and what practical changes can strengthen research reliability
+description: Why so many scientific findings fail to replicate — and what practical changes can strengthen research reliability
 date: 2026-04-12 16:30:00
 tags: [reproducibility, open science, statistics, registered reports]
 categories: events
